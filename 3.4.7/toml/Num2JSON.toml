@@ -1,196 +1,28 @@
 Version = "3.4.7"
 
-[EquipmentInfo]
+[SchoolCourseInfo]
   NUMERIC = ["LocalCodeList/LocalCode/ListIndex"]
-
-[Activity]
-  NUMERIC = ["Points", "ActivityTime/Duration", "MaxAttemptsAllowed", "ActivityWeight", "LocalCodeList/LocalCode/ListIndex"]
-
-[AggregateStatisticInfo]
-  NUMERIC = ["LocalCodeList/LocalCode/ListIndex"]
-
-[CalendarSummary]
-  NUMERIC = ["DaysInSession", "InstructionalMinutes", "MinutesPerDay", "LocalCodeList/LocalCode/ListIndex"]
-
-[NAPEventStudentLink]
-  NUMERIC = ["LocalCodeList/LocalCode/ListIndex"]
-
-[ResourceUsage]
-  NUMERIC = ["ResourceReportLineList/ResourceReportLine/CurrentCost", "LocalCodeList/LocalCode/ListIndex"]
-
-[StaffAssignment]
-  NUMERIC = ["JobFTE", "StaffSubjectList/StaffSubject/PreferenceNumber", "LocalCodeList/LocalCode/ListIndex"]
-
-[StudentPeriodAttendance]
-  NUMERIC = ["LocalCodeList/LocalCode/ListIndex"]
-
-[TeachingGroup]
-  NUMERIC = ["Semester", "MinClassSize", "MaxClassSize", "LocalCodeList/LocalCode/ListIndex"]
-
-[AddressCollection]
-  NUMERIC = ["AddressCollectionReportingList/AddressCollectionReporting/EntityContact/Address/GridLocation/Latitude", "AddressCollectionReportingList/AddressCollectionReporting/EntityContact/Address/GridLocation/Longitude", "AddressCollectionReportingList/AddressCollectionReporting/EntityContact/PhoneNumber/Preference", "AddressCollectionReportingList/AddressCollectionReporting/AddressCollectionStudentList/AddressCollectionStudent/StudentAddress/GridLocation/Latitude", "AddressCollectionReportingList/AddressCollectionReporting/AddressCollectionStudentList/AddressCollectionStudent/StudentAddress/GridLocation/Longitude", "AddressCollectionReportingList/AddressCollectionReporting/AddressCollectionStudentList/AddressCollectionStudent/Parent1/ParentAddress/GridLocation/Latitude", "AddressCollectionReportingList/AddressCollectionReporting/AddressCollectionStudentList/AddressCollectionStudent/Parent1/ParentAddress/GridLocation/Longitude", "AddressCollectionReportingList/AddressCollectionReporting/AddressCollectionStudentList/AddressCollectionStudent/Parent2/ParentAddress/GridLocation/Latitude", "AddressCollectionReportingList/AddressCollectionReporting/AddressCollectionStudentList/AddressCollectionStudent/Parent2/ParentAddress/GridLocation/Longitude", "LocalCodeList/LocalCode/ListIndex"]
-
-[TimeTableCell]
-  NUMERIC = ["TeacherList/TeacherCover/Weighting", "LocalCodeList/LocalCode/ListIndex"]
-
-[NAPCodeFrame]
-  NUMERIC = ["TestContent/StagesCount", "TestContent/DomainBands/Band1Lower", "TestContent/DomainBands/Band1Upper", "TestContent/DomainBands/Band2Lower", "TestContent/DomainBands/Band2Upper", "TestContent/DomainBands/Band3Lower", "TestContent/DomainBands/Band3Upper", "TestContent/DomainBands/Band4Lower", "TestContent/DomainBands/Band4Upper", "TestContent/DomainBands/Band5Lower", "TestContent/DomainBands/Band5Upper", "TestContent/DomainBands/Band6Lower", "TestContent/DomainBands/Band6Upper", "TestContent/DomainBands/Band7Lower", "TestContent/DomainBands/Band7Upper", "TestContent/DomainBands/Band8Lower", "TestContent/DomainBands/Band8Upper", "TestContent/DomainBands/Band9Lower", "TestContent/DomainBands/Band9Upper", "TestContent/DomainBands/Band10Lower", "TestContent/DomainBands/Band10Upper", "TestContent/DomainProficiency/Level1Lower", "TestContent/DomainProficiency/Level1Upper", "TestContent/DomainProficiency/Level2Lower", "TestContent/DomainProficiency/Level2Upper", "TestContent/DomainProficiency/Level3Lower", "TestContent/DomainProficiency/Level3Upper", "TestContent/DomainProficiency/Level4Lower", "TestContent/DomainProficiency/Level4Upper", "TestletList/Testlet/TestletContent/LocationInStage", "TestletList/Testlet/TestletContent/TestletMaximumScore", "TestletList/Testlet/TestItemList/TestItem/SequenceNumber", "TestletList/Testlet/TestItemList/TestItem/TestItemContent/MultipleChoiceOptionCount", "TestletList/Testlet/TestItemList/TestItem/TestItemContent/MaximumScore", "TestletList/Testlet/TestItemList/TestItem/TestItemContent/ItemDifficulty", "TestletList/Testlet/TestItemList/TestItem/TestItemContent/ItemDifficultyLogit5", "TestletList/Testlet/TestItemList/TestItem/TestItemContent/ItemDifficultyLogit62", "TestletList/Testlet/TestItemList/TestItem/TestItemContent/ItemDifficultyLogit5SE", "TestletList/Testlet/TestItemList/TestItem/TestItemContent/ItemDifficultyLogit62SE", "TestletList/Testlet/TestItemList/TestItem/TestItemContent/ItemProficiencyBand", "TestletList/Testlet/TestItemList/TestItem/TestItemContent/StimulusList/Stimulus/WordCount", "TestletList/Testlet/TestItemList/TestItem/TestItemContent/NAPWritingRubricList/NAPWritingRubric/ScoreList/Score/MaxScoreValue", "TestletList/Testlet/TestItemList/TestItem/TestItemContent/NAPWritingRubricList/NAPWritingRubric/ScoreList/Score/ScoreDescriptionList/ScoreDescription/ScoreValue", "LocalCodeList/LocalCode/ListIndex"]
-
-[WellbeingEvent]
-  NUMERIC = ["LocalCodeList/LocalCode/ListIndex"]
-
-[AggregateStatisticFact]
-  NUMERIC = ["Value", "LocalCodeList/LocalCode/ListIndex"]
-
-[NAPTestItem]
-  NUMERIC = ["TestItemContent/MultipleChoiceOptionCount", "TestItemContent/MaximumScore", "TestItemContent/ItemDifficulty", "TestItemContent/ItemDifficultyLogit5", "TestItemContent/ItemDifficultyLogit62", "TestItemContent/ItemDifficultyLogit5SE", "TestItemContent/ItemDifficultyLogit62SE", "TestItemContent/ItemProficiencyBand", "TestItemContent/StimulusList/Stimulus/WordCount", "TestItemContent/NAPWritingRubricList/NAPWritingRubric/ScoreList/Score/MaxScoreValue", "TestItemContent/NAPWritingRubricList/NAPWritingRubric/ScoreList/Score/ScoreDescriptionList/ScoreDescription/ScoreValue", "LocalCodeList/LocalCode/ListIndex"]
-
-[StudentAttendanceTimeList]
-  NUMERIC = ["AttendanceTimes/AttendanceTime/DurationValue", "PeriodAttendances/PeriodAttendance/TeacherList/TeacherCover/Weighting", "LocalCodeList/LocalCode/ListIndex"]
-
-[TimeTableContainer]
-  NUMERIC = ["TimeTableSchedule/DaysPerCycle", "TimeTableSchedule/PeriodsPerDay", "TimeTableSchedule/TeachingPeriodsPerDay", "TimeTableSchedule/TimeTableDayList/TimeTableDay/TimeTablePeriodList/TimeTablePeriod/InstructionalMinutes", "TimeTableScheduleCellList/TimeTableScheduleCell/TeacherList/TeacherCover/Weighting", "TeachingGroupScheduleList/Semester", "TeachingGroupScheduleList/MinClassSize", "TeachingGroupScheduleList/MaxClassSize", "LocalCodeList/LocalCode/ListIndex"]
-
-[VendorInfo]
-  NUMERIC = ["ContactInfo/Address/GridLocation/Latitude", "ContactInfo/Address/GridLocation/Longitude", "ContactInfo/PhoneNumberList/PhoneNumber/Preference", "LocalCodeList/LocalCode/ListIndex"]
-
-[ChargedLocationInfo]
-  NUMERIC = ["AddressList/Address/GridLocation/Latitude", "AddressList/Address/GridLocation/Longitude", "PhoneNumberList/PhoneNumber/Preference", "LocalCodeList/LocalCode/ListIndex"]
-
-[StudentActivityParticipation]
-  NUMERIC = ["LocalCodeList/LocalCode/ListIndex"]
-
-[StudentAttendanceSummary]
-  NUMERIC = ["StartDay", "EndDay", "FTE", "DaysAttended", "ExcusedAbsences", "UnexcusedAbsences", "DaysTardy", "DaysInMembership", "LocalCodeList/LocalCode/ListIndex"]
-
-[StudentGrade]
-  NUMERIC = ["GradingScoreList/GradingAssignmentScore/Weight", "Grade/Percentage", "Grade/Numeric", "LocalCodeList/LocalCode/ListIndex"]
-
-[TimeTableSubject]
-  NUMERIC = ["ProposedMaxClassSize", "ProposedMinClassSize", "Semester", "LocalCodeList/LocalCode/ListIndex"]
-
-[WellbeingResponse]
-  NUMERIC = ["Suspension/Duration", "LocalCodeList/LocalCode/ListIndex"]
-
-[SchoolInfo]
-  NUMERIC = ["PrincipalInfo/PhoneNumberList/PhoneNumber/Preference", "SchoolContactList/SchoolContact/ContactInfo/Address/GridLocation/Latitude", "SchoolContactList/SchoolContact/ContactInfo/Address/GridLocation/Longitude", "SchoolContactList/SchoolContact/ContactInfo/PhoneNumberList/PhoneNumber/Preference", "AddressList/Address/GridLocation/Latitude", "AddressList/Address/GridLocation/Longitude", "PhoneNumberList/PhoneNumber/Preference", "ARIA", "LocalCodeList/LocalCode/ListIndex"]
-
-[Debtor]
-  NUMERIC = ["AddressList/Address/GridLocation/Latitude", "AddressList/Address/GridLocation/Longitude", "LocalCodeList/LocalCode/ListIndex"]
-
-[MarkValueInfo]
-  NUMERIC = ["PercentageMinimum", "PercentageMaximum", "PercentagePassingGrade", "NumericPrecision", "NumericScale", "NumericLow", "NumericHigh", "NumericPassingGrade", "ValidLetterMarkList/ValidLetterMark/NumericEquivalent", "NarrativeMaximumSize", "LocalCodeList/LocalCode/ListIndex"]
-
-[StaffPersonal]
-  NUMERIC = ["PersonInfo/AddressList/Address/GridLocation/Latitude", "PersonInfo/AddressList/Address/GridLocation/Longitude", "PersonInfo/PhoneNumberList/PhoneNumber/Preference", "PersonInfo/HouseholdContactInfoList/HouseholdContactInfo/PreferenceNumber", "PersonInfo/HouseholdContactInfoList/HouseholdContactInfo/AddressList/Address/GridLocation/Latitude", "PersonInfo/HouseholdContactInfoList/HouseholdContactInfo/AddressList/Address/GridLocation/Longitude", "PersonInfo/HouseholdContactInfoList/HouseholdContactInfo/PhoneNumberList/PhoneNumber/Preference", "LocalCodeList/LocalCode/ListIndex"]
-
-[StudentDailyAttendance]
-  NUMERIC = ["AbsenceValue", "LocalCodeList/LocalCode/ListIndex"]
-
-[AggregateCharacteristicInfo]
-  NUMERIC = ["LocalCodeList/LocalCode/ListIndex"]
-
-[NAPStudentResponseSet]
-  NUMERIC = ["DomainScore/RawScore", "DomainScore/ScaledScoreValue", "DomainScore/ScaledScoreLogitValue", "DomainScore/ScaledScoreStandardError", "DomainScore/ScaledScoreLogitStandardError", "DomainScore/StudentDomainBand", "DomainScore/PlausibleScaledValueList/PlausibleScaledValue", "TestletList/Testlet/TestletSubScore", "TestletList/Testlet/ItemResponseList/ItemResponse/Score", "TestletList/Testlet/ItemResponseList/ItemResponse/SequenceNumber", "TestletList/Testlet/ItemResponseList/ItemResponse/ItemWeight", "TestletList/Testlet/ItemResponseList/ItemResponse/SubscoreList/Subscore/SubscoreValue", "LocalCodeList/LocalCode/ListIndex"]
-
-[PaymentReceipt]
-  NUMERIC = ["PaymentReceiptLineList/PaymentReceiptLine/TransactionAmount", "PaymentReceiptLineList/PaymentReceiptLine/TaxRate", "PaymentReceiptLineList/PaymentReceiptLine/TaxAmount", "TransactionAmount", "TaxRate", "TaxAmount", "LocalCodeList/LocalCode/ListIndex"]
 
 [StudentAttendanceCollection]
   NUMERIC = ["StudentAttendanceCollectionReportingList/StudentAttendanceCollectionReporting/EntityContact/Address/GridLocation/Latitude", "StudentAttendanceCollectionReportingList/StudentAttendanceCollectionReporting/EntityContact/Address/GridLocation/Longitude", "StudentAttendanceCollectionReportingList/StudentAttendanceCollectionReporting/EntityContact/PhoneNumber/Preference", "StudentAttendanceCollectionReportingList/StudentAttendanceCollectionReporting/StatsCohortYearLevelList/StatsCohortYearLevel/StatsCohortList/StatsCohort/DaysInReferencePeriod", "StudentAttendanceCollectionReportingList/StudentAttendanceCollectionReporting/StatsCohortYearLevelList/StatsCohortYearLevel/StatsCohortList/StatsCohort/PossibleSchoolDays", "StudentAttendanceCollectionReportingList/StudentAttendanceCollectionReporting/StatsCohortYearLevelList/StatsCohortYearLevel/StatsCohortList/StatsCohort/AttendanceDays", "StudentAttendanceCollectionReportingList/StudentAttendanceCollectionReporting/StatsCohortYearLevelList/StatsCohortYearLevel/StatsCohortList/StatsCohort/AttendanceLess90Percent", "StudentAttendanceCollectionReportingList/StudentAttendanceCollectionReporting/StatsCohortYearLevelList/StatsCohortYearLevel/StatsCohortList/StatsCohort/AttendanceGTE90Percent", "StudentAttendanceCollectionReportingList/StudentAttendanceCollectionReporting/StatsCohortYearLevelList/StatsCohortYearLevel/StatsCohortList/StatsCohort/PossibleSchoolDaysGT90PercentAttendance", "LocalCodeList/LocalCode/ListIndex"]
 
-[WellbeingPersonLink]
+[ScheduledActivity]
+  NUMERIC = ["TeacherList/TeacherCover/Weighting", "AddressList/Address/GridLocation/Latitude", "AddressList/Address/GridLocation/Longitude", "LocalCodeList/LocalCode/ListIndex"]
+
+[TimeTableContainer]
+  NUMERIC = ["TimeTableSchedule/DaysPerCycle", "TimeTableSchedule/PeriodsPerDay", "TimeTableSchedule/TeachingPeriodsPerDay", "TimeTableSchedule/TimeTableDayList/TimeTableDay/TimeTablePeriodList/TimeTablePeriod/InstructionalMinutes", "TimeTableScheduleCellList/TimeTableScheduleCell/TeacherList/TeacherCover/Weighting", "TeachingGroupScheduleList/Semester", "TeachingGroupScheduleList/MinClassSize", "TeachingGroupScheduleList/MaxClassSize", "LocalCodeList/LocalCode/ListIndex"]
+
+[TimeTableSubject]
+  NUMERIC = ["ProposedMaxClassSize", "ProposedMinClassSize", "Semester", "LocalCodeList/LocalCode/ListIndex"]
+
+[AggregateStatisticInfo]
   NUMERIC = ["LocalCodeList/LocalCode/ListIndex"]
 
-[LearningResource]
-  NUMERIC = ["Contacts/Contact/Address/GridLocation/Latitude", "Contacts/Contact/Address/GridLocation/Longitude", "Contacts/Contact/PhoneNumber/Preference", "LocalCodeList/LocalCode/ListIndex"]
+[CensusCollection]
+  NUMERIC = ["CensusReportingList/CensusReporting/EntityContact/Address/GridLocation/Latitude", "CensusReportingList/CensusReporting/EntityContact/Address/GridLocation/Longitude", "CensusReportingList/CensusReporting/EntityContact/PhoneNumber/Preference", "CensusReportingList/CensusReporting/CensusStaffList/CensusStaff/PrimaryFTE", "CensusReportingList/CensusReporting/CensusStaffList/CensusStaff/SecondaryFTE", "CensusReportingList/CensusReporting/CensusStaffList/CensusStaff/JobFTE", "CensusReportingList/CensusReporting/CensusStaffList/CensusStaff/Headcount", "CensusReportingList/CensusReporting/CensusStudentList/CensusStudent/CensusAge", "CensusReportingList/CensusReporting/CensusStudentList/CensusStudent/FTE", "CensusReportingList/CensusReporting/CensusStudentList/CensusStudent/Headcount"]
 
 [GradingAssignmentScore]
   NUMERIC = ["ScorePoints", "ScorePercent", "SubscoreList/Subscore/SubscoreValue", "LocalCodeList/LocalCode/ListIndex"]
-
-[Invoice]
-  NUMERIC = ["BilledAmount", "NetAmount", "TaxRate", "TaxAmount", "PurchasingItems/PurchasingItem/UnitCost", "PurchasingItems/PurchasingItem/TotalCost", "PurchasingItems/PurchasingItem/TaxRate", "PurchasingItems/PurchasingItem/ExpenseAccounts/ExpenseAccount/Amount", "LocalCodeList/LocalCode/ListIndex"]
-
-[LearningStandardDocument]
-  NUMERIC = ["LocalCodeList/LocalCode/ListIndex"]
-
-[NAPTestScoreSummary]
-  NUMERIC = ["DomainNationalAverage", "DomainSchoolAverage", "DomainJurisdictionAverage", "DomainTopNational60Percent", "DomainBottomNational60Percent", "LocalCodeList/LocalCode/ListIndex"]
-
-[SchoolPrograms]
-  NUMERIC = ["LocalCodeList/LocalCode/ListIndex"]
-
-[TimeTable]
-  NUMERIC = ["DaysPerCycle", "PeriodsPerDay", "TeachingPeriodsPerDay", "TimeTableDayList/TimeTableDay/TimeTablePeriodList/TimeTablePeriod/InstructionalMinutes", "LocalCodeList/LocalCode/ListIndex"]
-
-[FinancialAccount]
-  NUMERIC = ["LocalCodeList/LocalCode/ListIndex"]
-
-[LearningStandardItem]
-  NUMERIC = ["StandardHierarchyLevel/Number", "LocalCodeList/LocalCode/ListIndex"]
-
-[PersonPicture]
-  NUMERIC = ["LocalCodeList/LocalCode/ListIndex"]
-
-[PersonalisedPlan]
-  NUMERIC = ["LocalCodeList/LocalCode/ListIndex"]
-
-[ResourceBooking]
-  NUMERIC = ["LocalCodeList/LocalCode/ListIndex"]
-
-[TermInfo]
-  NUMERIC = ["RelativeDuration", "LocalCodeList/LocalCode/ListIndex"]
-
-[WellbeingAlert]
-  NUMERIC = ["LocalCodeList/LocalCode/ListIndex"]
-
-[CollectionStatus]
-  NUMERIC = ["LocalCodeList/LocalCode/ListIndex"]
-
-[Identity]
-  NUMERIC = ["LocalCodeList/LocalCode/ListIndex"]
-
-[LEAInfo]
-  NUMERIC = ["LEAContactList/LEAContact/ContactInfo/Address/GridLocation/Latitude", "LEAContactList/LEAContact/ContactInfo/Address/GridLocation/Longitude", "LEAContactList/LEAContact/ContactInfo/PhoneNumberList/PhoneNumber/Preference", "PhoneNumberList/PhoneNumber/Preference", "AddressList/Address/GridLocation/Latitude", "AddressList/Address/GridLocation/Longitude", "LocalCodeList/LocalCode/ListIndex"]
-
-[StudentSchoolEnrollment]
-  NUMERIC = ["FTE", "StudentSubjectChoiceList/StudentSubjectChoice/PreferenceNumber", "CensusAge", "LocalCodeList/LocalCode/ListIndex"]
-
-[FinancialQuestionnaireCollection]
-  NUMERIC = ["FQReportingList/FQReporting/EntityContact/Address/GridLocation/Latitude", "FQReportingList/FQReporting/EntityContact/Address/GridLocation/Longitude", "FQReportingList/FQReporting/EntityContact/PhoneNumber/Preference", "FQReportingList/FQReporting/FQItemList/FQItem/TuitionAmount", "FQReportingList/FQReporting/FQItemList/FQItem/BoardingAmount", "FQReportingList/FQReporting/FQItemList/FQItem/SystemAmount", "FQReportingList/FQReporting/FQItemList/FQItem/DioceseAmount", "LocalCodeList/LocalCode/ListIndex"]
-
-[PurchaseOrder]
-  NUMERIC = ["PurchasingItems/PurchasingItem/UnitCost", "PurchasingItems/PurchasingItem/TotalCost", "PurchasingItems/PurchasingItem/TaxRate", "PurchasingItems/PurchasingItem/ExpenseAccounts/ExpenseAccount/Amount", "TaxRate", "TaxAmount", "TotalAmount", "LocalCodeList/LocalCode/ListIndex"]
-
-[StudentContactRelationship]
-  NUMERIC = ["ContactSequence", "LocalCodeList/LocalCode/ListIndex"]
-
-[StudentScoreJudgementAgainstStandard]
-  NUMERIC = ["LocalCodeList/LocalCode/ListIndex"]
-
-[LibraryPatronStatus]
-  NUMERIC = ["TransactionList/Transaction/ItemInfo/Price", "TransactionList/Transaction/FineInfoList/FineInfo/Amount", "NumberOfCheckouts", "NumberOfOverdues", "NumberOfFines", "FineAmount", "NumberOfRefunds", "RefundAmount"]
-
-[SectionInfo]
-  NUMERIC = ["LocalCodeList/LocalCode/ListIndex"]
-
-[StudentActivityInfo]
-  NUMERIC = ["LocalCodeList/LocalCode/ListIndex"]
-
-[GradingAssignment]
-  NUMERIC = ["PointsPossible", "Weight", "MaxAttemptsAllowed", "RubricScoringGuide/ScoreList/Score/MaxScoreValue", "RubricScoringGuide/ScoreList/Score/ScoreDescriptionList/ScoreDescription/ScoreValue", "LocalCodeList/LocalCode/ListIndex"]
-
-[SchoolCourseInfo]
-  NUMERIC = ["LocalCodeList/LocalCode/ListIndex"]
-
-[StudentPersonal]
-  NUMERIC = ["PersonInfo/AddressList/Address/GridLocation/Latitude", "PersonInfo/AddressList/Address/GridLocation/Longitude", "PersonInfo/PhoneNumberList/PhoneNumber/Preference", "PersonInfo/HouseholdContactInfoList/HouseholdContactInfo/PreferenceNumber", "PersonInfo/HouseholdContactInfoList/HouseholdContactInfo/AddressList/Address/GridLocation/Latitude", "PersonInfo/HouseholdContactInfoList/HouseholdContactInfo/AddressList/Address/GridLocation/Longitude", "PersonInfo/HouseholdContactInfoList/HouseholdContactInfo/PhoneNumberList/PhoneNumber/Preference", "MostRecent/FTE", "MostRecent/CensusAge", "LocalCodeList/LocalCode/ListIndex"]
-
-[WellbeingAppeal]
-  NUMERIC = ["LocalCodeList/LocalCode/ListIndex"]
-
-[NAPTest]
-  NUMERIC = ["TestContent/StagesCount", "TestContent/DomainBands/Band1Lower", "TestContent/DomainBands/Band1Upper", "TestContent/DomainBands/Band2Lower", "TestContent/DomainBands/Band2Upper", "TestContent/DomainBands/Band3Lower", "TestContent/DomainBands/Band3Upper", "TestContent/DomainBands/Band4Lower", "TestContent/DomainBands/Band4Upper", "TestContent/DomainBands/Band5Lower", "TestContent/DomainBands/Band5Upper", "TestContent/DomainBands/Band6Lower", "TestContent/DomainBands/Band6Upper", "TestContent/DomainBands/Band7Lower", "TestContent/DomainBands/Band7Upper", "TestContent/DomainBands/Band8Lower", "TestContent/DomainBands/Band8Upper", "TestContent/DomainBands/Band9Lower", "TestContent/DomainBands/Band9Upper", "TestContent/DomainBands/Band10Lower", "TestContent/DomainBands/Band10Upper", "TestContent/DomainProficiency/Level1Lower", "TestContent/DomainProficiency/Level1Upper", "TestContent/DomainProficiency/Level2Lower", "TestContent/DomainProficiency/Level2Upper", "TestContent/DomainProficiency/Level3Lower", "TestContent/DomainProficiency/Level3Upper", "TestContent/DomainProficiency/Level4Lower", "TestContent/DomainProficiency/Level4Upper", "LocalCodeList/LocalCode/ListIndex"]
 
 [RoomInfo]
   NUMERIC = ["Size", "Capacity", "PhoneNumber/Preference", "LocalCodeList/LocalCode/ListIndex"]
@@ -198,36 +30,204 @@ Version = "3.4.7"
 [StudentSectionEnrollment]
   NUMERIC = ["LocalCodeList/LocalCode/ListIndex"]
 
-[SystemRole]
+[PersonPicture]
+  NUMERIC = ["LocalCodeList/LocalCode/ListIndex"]
+
+[SchoolPrograms]
+  NUMERIC = ["LocalCodeList/LocalCode/ListIndex"]
+
+[StaffPersonal]
+  NUMERIC = ["PersonInfo/AddressList/Address/GridLocation/Latitude", "PersonInfo/AddressList/Address/GridLocation/Longitude", "PersonInfo/PhoneNumberList/PhoneNumber/Preference", "PersonInfo/HouseholdContactInfoList/HouseholdContactInfo/PreferenceNumber", "PersonInfo/HouseholdContactInfoList/HouseholdContactInfo/AddressList/Address/GridLocation/Latitude", "PersonInfo/HouseholdContactInfoList/HouseholdContactInfo/AddressList/Address/GridLocation/Longitude", "PersonInfo/HouseholdContactInfoList/HouseholdContactInfo/PhoneNumberList/PhoneNumber/Preference", "LocalCodeList/LocalCode/ListIndex"]
+
+[AddressCollection]
+  NUMERIC = ["AddressCollectionReportingList/AddressCollectionReporting/EntityContact/Address/GridLocation/Latitude", "AddressCollectionReportingList/AddressCollectionReporting/EntityContact/Address/GridLocation/Longitude", "AddressCollectionReportingList/AddressCollectionReporting/EntityContact/PhoneNumber/Preference", "AddressCollectionReportingList/AddressCollectionReporting/AddressCollectionStudentList/AddressCollectionStudent/StudentAddress/GridLocation/Latitude", "AddressCollectionReportingList/AddressCollectionReporting/AddressCollectionStudentList/AddressCollectionStudent/StudentAddress/GridLocation/Longitude", "AddressCollectionReportingList/AddressCollectionReporting/AddressCollectionStudentList/AddressCollectionStudent/Parent1/ParentAddress/GridLocation/Latitude", "AddressCollectionReportingList/AddressCollectionReporting/AddressCollectionStudentList/AddressCollectionStudent/Parent1/ParentAddress/GridLocation/Longitude", "AddressCollectionReportingList/AddressCollectionReporting/AddressCollectionStudentList/AddressCollectionStudent/Parent2/ParentAddress/GridLocation/Latitude", "AddressCollectionReportingList/AddressCollectionReporting/AddressCollectionStudentList/AddressCollectionStudent/Parent2/ParentAddress/GridLocation/Longitude", "LocalCodeList/LocalCode/ListIndex"]
+
+[CollectionRound]
+  NUMERIC = ["LocalCodeList/LocalCode/ListIndex"]
+
+[CollectionStatus]
+  NUMERIC = ["LocalCodeList/LocalCode/ListIndex"]
+
+[GradingAssignment]
+  NUMERIC = ["PointsPossible", "Weight", "MaxAttemptsAllowed", "RubricScoringGuide/ScoreList/Score/MaxScoreValue", "RubricScoringGuide/ScoreList/Score/ScoreDescriptionList/ScoreDescription/ScoreValue", "LocalCodeList/LocalCode/ListIndex"]
+
+[NAPStudentResponseSet]
+  NUMERIC = ["DomainScore/RawScore", "DomainScore/ScaledScoreValue", "DomainScore/ScaledScoreLogitValue", "DomainScore/ScaledScoreStandardError", "DomainScore/ScaledScoreLogitStandardError", "DomainScore/StudentDomainBand", "DomainScore/PlausibleScaledValueList/PlausibleScaledValue", "TestletList/Testlet/TestletSubScore", "TestletList/Testlet/ItemResponseList/ItemResponse/Score", "TestletList/Testlet/ItemResponseList/ItemResponse/SequenceNumber", "TestletList/Testlet/ItemResponseList/ItemResponse/ItemWeight", "TestletList/Testlet/ItemResponseList/ItemResponse/SubscoreList/Subscore/SubscoreValue", "LocalCodeList/LocalCode/ListIndex"]
+
+[TermInfo]
+  NUMERIC = ["RelativeDuration", "LocalCodeList/LocalCode/ListIndex"]
+
+[VendorInfo]
+  NUMERIC = ["ContactInfo/Address/GridLocation/Latitude", "ContactInfo/Address/GridLocation/Longitude", "ContactInfo/PhoneNumberList/PhoneNumber/Preference", "LocalCodeList/LocalCode/ListIndex"]
+
+[StudentContactPersonal]
+  NUMERIC = ["PersonInfo/AddressList/Address/GridLocation/Latitude", "PersonInfo/AddressList/Address/GridLocation/Longitude", "PersonInfo/PhoneNumberList/PhoneNumber/Preference", "PersonInfo/HouseholdContactInfoList/HouseholdContactInfo/PreferenceNumber", "PersonInfo/HouseholdContactInfoList/HouseholdContactInfo/AddressList/Address/GridLocation/Latitude", "PersonInfo/HouseholdContactInfoList/HouseholdContactInfo/AddressList/Address/GridLocation/Longitude", "PersonInfo/HouseholdContactInfoList/HouseholdContactInfo/PhoneNumberList/PhoneNumber/Preference", "LocalCodeList/LocalCode/ListIndex"]
+
+[StudentContactRelationship]
+  NUMERIC = ["ContactSequence", "LocalCodeList/LocalCode/ListIndex"]
+
+[StudentParticipation]
+  NUMERIC = ["StudentSpecialEducationFTE", "LocalCodeList/LocalCode/ListIndex"]
+
+[LEAInfo]
+  NUMERIC = ["LEAContactList/LEAContact/ContactInfo/Address/GridLocation/Latitude", "LEAContactList/LEAContact/ContactInfo/Address/GridLocation/Longitude", "LEAContactList/LEAContact/ContactInfo/PhoneNumberList/PhoneNumber/Preference", "PhoneNumberList/PhoneNumber/Preference", "AddressList/Address/GridLocation/Latitude", "AddressList/Address/GridLocation/Longitude", "LocalCodeList/LocalCode/ListIndex"]
+
+[PaymentReceipt]
+  NUMERIC = ["PaymentReceiptLineList/PaymentReceiptLine/TransactionAmount", "PaymentReceiptLineList/PaymentReceiptLine/TaxRate", "PaymentReceiptLineList/PaymentReceiptLine/TaxAmount", "TransactionAmount", "TaxRate", "TaxAmount", "LocalCodeList/LocalCode/ListIndex"]
+
+[SessionInfo]
+  NUMERIC = ["LocalCodeList/LocalCode/ListIndex"]
+
+[StudentActivityInfo]
+  NUMERIC = ["LocalCodeList/LocalCode/ListIndex"]
+
+[StudentAttendanceSummary]
+  NUMERIC = ["StartDay", "EndDay", "FTE", "DaysAttended", "ExcusedAbsences", "UnexcusedAbsences", "DaysTardy", "DaysInMembership", "LocalCodeList/LocalCode/ListIndex"]
+
+[StudentPersonal]
+  NUMERIC = ["PersonInfo/AddressList/Address/GridLocation/Latitude", "PersonInfo/AddressList/Address/GridLocation/Longitude", "PersonInfo/PhoneNumberList/PhoneNumber/Preference", "PersonInfo/HouseholdContactInfoList/HouseholdContactInfo/PreferenceNumber", "PersonInfo/HouseholdContactInfoList/HouseholdContactInfo/AddressList/Address/GridLocation/Latitude", "PersonInfo/HouseholdContactInfoList/HouseholdContactInfo/AddressList/Address/GridLocation/Longitude", "PersonInfo/HouseholdContactInfoList/HouseholdContactInfo/PhoneNumberList/PhoneNumber/Preference", "MostRecent/FTE", "MostRecent/CensusAge", "LocalCodeList/LocalCode/ListIndex"]
+
+[WellbeingResponse]
+  NUMERIC = ["Suspension/Duration", "LocalCodeList/LocalCode/ListIndex"]
+
+[TimeTableCell]
+  NUMERIC = ["TeacherList/TeacherCover/Weighting", "LocalCodeList/LocalCode/ListIndex"]
+
+[WellbeingPersonLink]
+  NUMERIC = ["LocalCodeList/LocalCode/ListIndex"]
+
+[AggregateCharacteristicInfo]
+  NUMERIC = ["LocalCodeList/LocalCode/ListIndex"]
+
+[LearningStandardDocument]
+  NUMERIC = ["LocalCodeList/LocalCode/ListIndex"]
+
+[ResourceUsage]
+  NUMERIC = ["ResourceReportLineList/ResourceReportLine/CurrentCost", "LocalCodeList/LocalCode/ListIndex"]
+
+[SectionInfo]
+  NUMERIC = ["LocalCodeList/LocalCode/ListIndex"]
+
+[StudentSchoolEnrollment]
+  NUMERIC = ["FTE", "StudentSubjectChoiceList/StudentSubjectChoice/PreferenceNumber", "CensusAge", "LocalCodeList/LocalCode/ListIndex"]
+
+[EquipmentInfo]
+  NUMERIC = ["LocalCodeList/LocalCode/ListIndex"]
+
+[PersonalisedPlan]
+  NUMERIC = ["LocalCodeList/LocalCode/ListIndex"]
+
+[StaffAssignment]
+  NUMERIC = ["JobFTE", "StaffSubjectList/StaffSubject/PreferenceNumber", "LocalCodeList/LocalCode/ListIndex"]
+
+[StudentPeriodAttendance]
+  NUMERIC = ["LocalCodeList/LocalCode/ListIndex"]
+
+[WellbeingEvent]
+  NUMERIC = ["LocalCodeList/LocalCode/ListIndex"]
+
+[ChargedLocationInfo]
+  NUMERIC = ["AddressList/Address/GridLocation/Latitude", "AddressList/Address/GridLocation/Longitude", "PhoneNumberList/PhoneNumber/Preference", "LocalCodeList/LocalCode/ListIndex"]
+
+[LearningResource]
+  NUMERIC = ["Contacts/Contact/Address/GridLocation/Latitude", "Contacts/Contact/Address/GridLocation/Longitude", "Contacts/Contact/PhoneNumber/Preference", "LocalCodeList/LocalCode/ListIndex"]
+
+[NAPTestItem]
+  NUMERIC = ["TestItemContent/MultipleChoiceOptionCount", "TestItemContent/MaximumScore", "TestItemContent/ItemDifficulty", "TestItemContent/ItemDifficultyLogit5", "TestItemContent/ItemDifficultyLogit62", "TestItemContent/ItemDifficultyLogit5SE", "TestItemContent/ItemDifficultyLogit62SE", "TestItemContent/ItemProficiencyBand", "TestItemContent/StimulusList/Stimulus/WordCount", "TestItemContent/NAPWritingRubricList/NAPWritingRubric/ScoreList/Score/MaxScoreValue", "TestItemContent/NAPWritingRubricList/NAPWritingRubric/ScoreList/Score/ScoreDescriptionList/ScoreDescription/ScoreValue", "LocalCodeList/LocalCode/ListIndex"]
+
+[ResourceBooking]
+  NUMERIC = ["LocalCodeList/LocalCode/ListIndex"]
+
+[StudentActivityParticipation]
+  NUMERIC = ["LocalCodeList/LocalCode/ListIndex"]
+
+[LibraryPatronStatus]
+  NUMERIC = ["TransactionList/Transaction/ItemInfo/Price", "TransactionList/Transaction/FineInfoList/FineInfo/Amount", "NumberOfCheckouts", "NumberOfOverdues", "NumberOfFines", "FineAmount", "NumberOfRefunds", "RefundAmount"]
+
+[NAPCodeFrame]
+  NUMERIC = ["TestContent/StagesCount", "TestContent/DomainBands/Band1Lower", "TestContent/DomainBands/Band1Upper", "TestContent/DomainBands/Band2Lower", "TestContent/DomainBands/Band2Upper", "TestContent/DomainBands/Band3Lower", "TestContent/DomainBands/Band3Upper", "TestContent/DomainBands/Band4Lower", "TestContent/DomainBands/Band4Upper", "TestContent/DomainBands/Band5Lower", "TestContent/DomainBands/Band5Upper", "TestContent/DomainBands/Band6Lower", "TestContent/DomainBands/Band6Upper", "TestContent/DomainBands/Band7Lower", "TestContent/DomainBands/Band7Upper", "TestContent/DomainBands/Band8Lower", "TestContent/DomainBands/Band8Upper", "TestContent/DomainBands/Band9Lower", "TestContent/DomainBands/Band9Upper", "TestContent/DomainBands/Band10Lower", "TestContent/DomainBands/Band10Upper", "TestContent/DomainProficiency/Level1Lower", "TestContent/DomainProficiency/Level1Upper", "TestContent/DomainProficiency/Level2Lower", "TestContent/DomainProficiency/Level2Upper", "TestContent/DomainProficiency/Level3Lower", "TestContent/DomainProficiency/Level3Upper", "TestContent/DomainProficiency/Level4Lower", "TestContent/DomainProficiency/Level4Upper", "TestletList/Testlet/TestletContent/LocationInStage", "TestletList/Testlet/TestletContent/TestletMaximumScore", "TestletList/Testlet/TestItemList/TestItem/SequenceNumber", "TestletList/Testlet/TestItemList/TestItem/TestItemContent/MultipleChoiceOptionCount", "TestletList/Testlet/TestItemList/TestItem/TestItemContent/MaximumScore", "TestletList/Testlet/TestItemList/TestItem/TestItemContent/ItemDifficulty", "TestletList/Testlet/TestItemList/TestItem/TestItemContent/ItemDifficultyLogit5", "TestletList/Testlet/TestItemList/TestItem/TestItemContent/ItemDifficultyLogit62", "TestletList/Testlet/TestItemList/TestItem/TestItemContent/ItemDifficultyLogit5SE", "TestletList/Testlet/TestItemList/TestItem/TestItemContent/ItemDifficultyLogit62SE", "TestletList/Testlet/TestItemList/TestItem/TestItemContent/ItemProficiencyBand", "TestletList/Testlet/TestItemList/TestItem/TestItemContent/StimulusList/Stimulus/WordCount", "TestletList/Testlet/TestItemList/TestItem/TestItemContent/NAPWritingRubricList/NAPWritingRubric/ScoreList/Score/MaxScoreValue", "TestletList/Testlet/TestItemList/TestItem/TestItemContent/NAPWritingRubricList/NAPWritingRubric/ScoreList/Score/ScoreDescriptionList/ScoreDescription/ScoreValue", "LocalCodeList/LocalCode/ListIndex"]
+
+[StudentScoreJudgementAgainstStandard]
+  NUMERIC = ["LocalCodeList/LocalCode/ListIndex"]
+
+[WellbeingAppeal]
   NUMERIC = ["LocalCodeList/LocalCode/ListIndex"]
 
 [WellbeingCharacteristic]
   NUMERIC = ["LocalCodeList/LocalCode/ListIndex"]
 
+[CalendarDate]
+  NUMERIC = ["CalendarDateNumber", "StudentAttendance/AttendanceValue", "TeacherAttendance/AttendanceValue", "AdministratorAttendance/AttendanceValue", "LocalCodeList/LocalCode/ListIndex"]
+
+[CalendarSummary]
+  NUMERIC = ["DaysInSession", "InstructionalMinutes", "MinutesPerDay", "LocalCodeList/LocalCode/ListIndex"]
+
+[NAPTest]
+  NUMERIC = ["TestContent/StagesCount", "TestContent/DomainBands/Band1Lower", "TestContent/DomainBands/Band1Upper", "TestContent/DomainBands/Band2Lower", "TestContent/DomainBands/Band2Upper", "TestContent/DomainBands/Band3Lower", "TestContent/DomainBands/Band3Upper", "TestContent/DomainBands/Band4Lower", "TestContent/DomainBands/Band4Upper", "TestContent/DomainBands/Band5Lower", "TestContent/DomainBands/Band5Upper", "TestContent/DomainBands/Band6Lower", "TestContent/DomainBands/Band6Upper", "TestContent/DomainBands/Band7Lower", "TestContent/DomainBands/Band7Upper", "TestContent/DomainBands/Band8Lower", "TestContent/DomainBands/Band8Upper", "TestContent/DomainBands/Band9Lower", "TestContent/DomainBands/Band9Upper", "TestContent/DomainBands/Band10Lower", "TestContent/DomainBands/Band10Upper", "TestContent/DomainProficiency/Level1Lower", "TestContent/DomainProficiency/Level1Upper", "TestContent/DomainProficiency/Level2Lower", "TestContent/DomainProficiency/Level2Upper", "TestContent/DomainProficiency/Level3Lower", "TestContent/DomainProficiency/Level3Upper", "TestContent/DomainProficiency/Level4Lower", "TestContent/DomainProficiency/Level4Upper", "LocalCodeList/LocalCode/ListIndex"]
+
+[TeachingGroup]
+  NUMERIC = ["Semester", "MinClassSize", "MaxClassSize", "LocalCodeList/LocalCode/ListIndex"]
+
+[WellbeingAlert]
+  NUMERIC = ["LocalCodeList/LocalCode/ListIndex"]
+
+[Activity]
+  NUMERIC = ["Points", "ActivityTime/Duration", "MaxAttemptsAllowed", "ActivityWeight", "LocalCodeList/LocalCode/ListIndex"]
+
+[AggregateStatisticFact]
+  NUMERIC = ["Value", "LocalCodeList/LocalCode/ListIndex"]
+
+[NAPTestScoreSummary]
+  NUMERIC = ["DomainNationalAverage", "DomainSchoolAverage", "DomainJurisdictionAverage", "DomainTopNational60Percent", "DomainBottomNational60Percent", "LocalCodeList/LocalCode/ListIndex"]
+
+[StudentAttendanceTimeList]
+  NUMERIC = ["AttendanceTimes/AttendanceTime/DurationValue", "PeriodAttendances/PeriodAttendance/TeacherList/TeacherCover/Weighting", "LocalCodeList/LocalCode/ListIndex"]
+
+[TimeTable]
+  NUMERIC = ["DaysPerCycle", "PeriodsPerDay", "TeachingPeriodsPerDay", "TimeTableDayList/TimeTableDay/TimeTablePeriodList/TimeTablePeriod/InstructionalMinutes", "LocalCodeList/LocalCode/ListIndex"]
+
+[Invoice]
+  NUMERIC = ["BilledAmount", "NetAmount", "TaxRate", "TaxAmount", "PurchasingItems/PurchasingItem/UnitCost", "PurchasingItems/PurchasingItem/TotalCost", "PurchasingItems/PurchasingItem/TaxRate", "PurchasingItems/PurchasingItem/ExpenseAccounts/ExpenseAccount/Amount", "LocalCodeList/LocalCode/ListIndex"]
+
+[LearningStandardItem]
+  NUMERIC = ["StandardHierarchyLevel/Number", "LocalCodeList/LocalCode/ListIndex"]
+
+[NAPEventStudentLink]
+  NUMERIC = ["LocalCodeList/LocalCode/ListIndex"]
+
+[SchoolInfo]
+  NUMERIC = ["PrincipalInfo/PhoneNumberList/PhoneNumber/Preference", "SchoolContactList/SchoolContact/ContactInfo/Address/GridLocation/Latitude", "SchoolContactList/SchoolContact/ContactInfo/Address/GridLocation/Longitude", "SchoolContactList/SchoolContact/ContactInfo/PhoneNumberList/PhoneNumber/Preference", "AddressList/Address/GridLocation/Latitude", "AddressList/Address/GridLocation/Longitude", "PhoneNumberList/PhoneNumber/Preference", "ARIA", "LocalCodeList/LocalCode/ListIndex"]
+
+[FinancialAccount]
+  NUMERIC = ["LocalCodeList/LocalCode/ListIndex"]
+
 [Journal]
   NUMERIC = ["Amount", "JournalAdjustmentList/JournalAdjustment/LineAdjustmentAmount", "LocalCodeList/LocalCode/ListIndex"]
+
+[StudentGrade]
+  NUMERIC = ["GradingScoreList/GradingAssignmentScore/Weight", "Grade/Percentage", "Grade/Numeric", "LocalCodeList/LocalCode/ListIndex"]
+
+[MarkValueInfo]
+  NUMERIC = ["PercentageMinimum", "PercentageMaximum", "PercentagePassingGrade", "NumericPrecision", "NumericScale", "NumericLow", "NumericHigh", "NumericPassingGrade", "ValidLetterMarkList/ValidLetterMark/NumericEquivalent", "NarrativeMaximumSize", "LocalCodeList/LocalCode/ListIndex"]
+
+[PurchaseOrder]
+  NUMERIC = ["PurchasingItems/PurchasingItem/UnitCost", "PurchasingItems/PurchasingItem/TotalCost", "PurchasingItems/PurchasingItem/TaxRate", "PurchasingItems/PurchasingItem/ExpenseAccounts/ExpenseAccount/Amount", "TaxRate", "TaxAmount", "TotalAmount", "LocalCodeList/LocalCode/ListIndex"]
+
+[SystemRole]
+  NUMERIC = ["LocalCodeList/LocalCode/ListIndex"]
+
+[Debtor]
+  NUMERIC = ["AddressList/Address/GridLocation/Latitude", "AddressList/Address/GridLocation/Longitude", "LocalCodeList/LocalCode/ListIndex"]
+
+[FinancialQuestionnaireCollection]
+  NUMERIC = ["FQReportingList/FQReporting/EntityContact/Address/GridLocation/Latitude", "FQReportingList/FQReporting/EntityContact/Address/GridLocation/Longitude", "FQReportingList/FQReporting/EntityContact/PhoneNumber/Preference", "FQReportingList/FQReporting/FQItemList/FQItem/TuitionAmount", "FQReportingList/FQReporting/FQItemList/FQItem/BoardingAmount", "FQReportingList/FQReporting/FQItemList/FQItem/SystemAmount", "FQReportingList/FQReporting/FQItemList/FQItem/DioceseAmount", "LocalCodeList/LocalCode/ListIndex"]
+
+[Identity]
+  NUMERIC = ["LocalCodeList/LocalCode/ListIndex"]
 
 [NAPTestlet]
   NUMERIC = ["TestletContent/LocationInStage", "TestletContent/TestletMaximumScore", "TestItemList/TestItem/SequenceNumber", "LocalCodeList/LocalCode/ListIndex"]
 
-[CalendarDate]
-  NUMERIC = ["CalendarDateNumber", "StudentAttendance/AttendanceValue", "TeacherAttendance/AttendanceValue", "AdministratorAttendance/AttendanceValue", "LocalCodeList/LocalCode/ListIndex"]
-
-[CollectionRound]
-  NUMERIC = ["LocalCodeList/LocalCode/ListIndex"]
-
-[ScheduledActivity]
-  NUMERIC = ["TeacherList/TeacherCover/Weighting", "AddressList/Address/GridLocation/Latitude", "AddressList/Address/GridLocation/Longitude", "LocalCodeList/LocalCode/ListIndex"]
-
-[SessionInfo]
-  NUMERIC = ["LocalCodeList/LocalCode/ListIndex"]
-
-[StudentContactPersonal]
-  NUMERIC = ["PersonInfo/AddressList/Address/GridLocation/Latitude", "PersonInfo/AddressList/Address/GridLocation/Longitude", "PersonInfo/PhoneNumberList/PhoneNumber/Preference", "PersonInfo/HouseholdContactInfoList/HouseholdContactInfo/PreferenceNumber", "PersonInfo/HouseholdContactInfoList/HouseholdContactInfo/AddressList/Address/GridLocation/Latitude", "PersonInfo/HouseholdContactInfoList/HouseholdContactInfo/AddressList/Address/GridLocation/Longitude", "PersonInfo/HouseholdContactInfoList/HouseholdContactInfo/PhoneNumberList/PhoneNumber/Preference", "LocalCodeList/LocalCode/ListIndex"]
-
-[StudentParticipation]
-  NUMERIC = ["StudentSpecialEducationFTE", "LocalCodeList/LocalCode/ListIndex"]
-
-[CensusCollection]
-  NUMERIC = ["CensusReportingList/CensusReporting/EntityContact/Address/GridLocation/Latitude", "CensusReportingList/CensusReporting/EntityContact/Address/GridLocation/Longitude", "CensusReportingList/CensusReporting/EntityContact/PhoneNumber/Preference", "CensusReportingList/CensusReporting/CensusStaffList/CensusStaff/PrimaryFTE", "CensusReportingList/CensusReporting/CensusStaffList/CensusStaff/SecondaryFTE", "CensusReportingList/CensusReporting/CensusStaffList/CensusStaff/JobFTE", "CensusReportingList/CensusReporting/CensusStaffList/CensusStaff/Headcount", "CensusReportingList/CensusReporting/CensusStudentList/CensusStudent/CensusAge", "CensusReportingList/CensusReporting/CensusStudentList/CensusStudent/FTE", "CensusReportingList/CensusReporting/CensusStudentList/CensusStudent/Headcount"]
+[StudentDailyAttendance]
+  NUMERIC = ["AbsenceValue", "LocalCodeList/LocalCode/ListIndex"]
 

@@ -143,7 +143,7 @@ func GenTomlAndGoSrc(specPath, outDir string) {
 
 func main() {
 
-	cfgSrc, pkgName := "./2_toml2json/config.go", "main"
+	cfgSrc, pkgName := "./toml2json/config.go", "main"
 	os.Remove(cfgSrc)
 
 	GenTomlAndGoSrc("./3.4.6.txt", "./3.4.6/")

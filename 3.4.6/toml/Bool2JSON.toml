@@ -1,18 +1,48 @@
 Version = "3.4.6"
 
-[Debtor]
+[GradingAssignment]
   BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
 
-[StudentAttendanceTimeList]
+[PaymentReceipt]
   BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
 
-[CollectionStatus]
+[StudentParticipation]
+  BOOLEAN = ["ExtendedSchoolYear", "ExtendedDay", "SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
+
+[StudentSectionEnrollment]
   BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
 
-[ScheduledActivity]
+[StudentSchoolEnrollment]
   BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
 
-[StudentActivityParticipation]
+[SystemRole]
+  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
+
+[WellbeingEvent]
+  BOOLEAN = ["GroupIndicator", "SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
+
+[AddressCollection]
+  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
+
+[CalendarSummary]
+  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
+
+[FinancialAccount]
+  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
+
+[LearningResource]
+  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
+
+[SessionInfo]
+  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
+
+[WellbeingResponse]
+  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
+
+[TermInfo]
+  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
+
+[VendorInfo]
   BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
 
 [AggregateStatisticInfo]
@@ -21,178 +51,13 @@ Version = "3.4.6"
 [MarkValueInfo]
   BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
 
-[PurchaseOrder]
-  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
-
-[SchoolPrograms]
-  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
-
-[StudentGrade]
-  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
-
-[StudentSectionEnrollment]
-  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
-
-[TimeTable]
-  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
-
-[ChargedLocationInfo]
-  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
-
-[GradingAssignmentScore]
-  BOOLEAN = ["ExpectedScore", "SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
-
-[StudentDailyAttendance]
-  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
-
-[WellbeingAppeal]
-  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
-
-[WellbeingResponse]
-  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
-
-[AggregateCharacteristicInfo]
-  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
-
-[Identity]
-  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
-
-[Journal]
-  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
-
-[NAPCodeFrame]
-  BOOLEAN = ["TestletList/Testlet/TestItemList/TestItem/TestItemContent/ReleasedStatus", "SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
-
-[NAPTest]
-  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
-
-[NAPTestScoreSummary]
-  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
-
-[SystemRole]
-  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
-
-[CalendarSummary]
-  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
-
-[WellbeingCharacteristic]
-  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
-
-[WellbeingPersonLink]
-  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
-
-[TimeTableSubject]
-  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
-
-[SchoolCourseInfo]
-  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
-
-[StaffPersonal]
-  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
-
-[StudentContactPersonal]
-  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
-
-[StudentContactRelationship]
-  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
-
-[StudentPeriodAttendance]
-  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
-
-[TermInfo]
-  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
-
-[TimeTableCell]
-  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
-
-[AddressCollection]
-  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
-
 [NAPStudentResponseSet]
   BOOLEAN = ["ReportExclusionFlag", "SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
 
-[SectionInfo]
-  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
-
-[StudentParticipation]
-  BOOLEAN = ["ExtendedSchoolYear", "ExtendedDay", "SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
-
-[StudentPersonal]
-  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
-
-[StudentSchoolEnrollment]
-  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
-
-[WellbeingEvent]
-  BOOLEAN = ["GroupIndicator", "SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
-
-[SchoolInfo]
-  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
-
-[StaffAssignment]
-  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
-
-[StudentActivityInfo]
-  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
-
-[PersonalisedPlan]
-  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
-
-[ResourceUsage]
-  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
-
-[VendorInfo]
-  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
-
-[EquipmentInfo]
-  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
-
-[FinancialAccount]
-  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
-
-[LEAInfo]
-  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
-
-[LearningResource]
-  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
-
-[StudentAttendanceSummary]
-  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
-
-[GradingAssignment]
-  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
-
-[Invoice]
-  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
-
-[LearningStandardDocument]
-  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
-
-[NAPTestlet]
-  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
-
-[PaymentReceipt]
-  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
-
-[TeachingGroup]
-  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
-
-[TimeTableContainer]
-  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
-
-[AggregateStatisticFact]
-  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
-
-[CalendarDate]
-  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
-
-[NAPEventStudentLink]
-  BOOLEAN = ["PersonalDetailsChanged", "PSIOtherIdMatch", "PossibleDuplicate", "DOBRange", "SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
-
-[NAPTestItem]
-  BOOLEAN = ["TestItemContent/ReleasedStatus", "SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
-
 [PersonPicture]
+  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
+
+[StudentContactPersonal]
   BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
 
 [ResourceBooking]
@@ -204,24 +69,159 @@ Version = "3.4.6"
 [WellbeingAlert]
   BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
 
-[Activity]
+[Debtor]
+  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
+
+[Journal]
+  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
+
+[NAPTest]
+  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
+
+[NAPTestScoreSummary]
+  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
+
+[PersonalisedPlan]
+  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
+
+[WellbeingCharacteristic]
   BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
 
 [FinancialQuestionnaireCollection]
   BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
 
-[SessionInfo]
+[GradingAssignmentScore]
+  BOOLEAN = ["ExpectedScore", "SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
+
+[Identity]
   BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
 
-[CensusCollection]
+[StudentPersonal]
+  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
+
+[WellbeingPersonLink]
+  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
+
+[LEAInfo]
+  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
+
+[NAPCodeFrame]
+  BOOLEAN = ["TestletList/Testlet/TestItemList/TestItem/TestItemContent/ReleasedStatus", "SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
+
+[StudentContactRelationship]
+  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
+
+[TimeTableSubject]
+  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
+
+[PurchaseOrder]
+  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
+
+[StudentPeriodAttendance]
+  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
+
+[TimeTableContainer]
+  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
+
+[StudentAttendanceSummary]
+  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
+
+[TeachingGroup]
+  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
+
+[AggregateStatisticFact]
+  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
+
+[CalendarDate]
+  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
+
+[SchoolCourseInfo]
+  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
+
+[SchoolInfo]
+  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
+
+[SectionInfo]
+  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
+
+[WellbeingAppeal]
   BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
 
 [CollectionRound]
   BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
 
-[LearningStandardItem]
+[CollectionStatus]
+  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
+
+[LearningStandardDocument]
+  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
+
+[NAPTestlet]
+  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
+
+[ResourceUsage]
+  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
+
+[StaffAssignment]
+  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
+
+[StudentDailyAttendance]
+  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
+
+[StudentActivityInfo]
   BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
 
 [StudentScoreJudgementAgainstStandard]
+  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
+
+[ChargedLocationInfo]
+  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
+
+[EquipmentInfo]
+  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
+
+[LearningStandardItem]
+  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
+
+[NAPTestItem]
+  BOOLEAN = ["TestItemContent/ReleasedStatus", "SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
+
+[StaffPersonal]
+  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
+
+[AggregateCharacteristicInfo]
+  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
+
+[CensusCollection]
+  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
+
+[SchoolPrograms]
+  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
+
+[TimeTableCell]
+  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
+
+[Activity]
+  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
+
+[Invoice]
+  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
+
+[StudentAttendanceTimeList]
+  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
+
+[NAPEventStudentLink]
+  BOOLEAN = ["PersonalDetailsChanged", "PSIOtherIdMatch", "PossibleDuplicate", "DOBRange", "SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
+
+[StudentActivityParticipation]
+  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
+
+[StudentGrade]
+  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
+
+[ScheduledActivity]
+  BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
+
+[TimeTable]
   BOOLEAN = ["SIF_Metadata/TimeElements/TimeElement/IsCurrent", "SIF_Metadata/LifeCycle/TimeElements/TimeElement/IsCurrent"]
 
