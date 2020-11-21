@@ -1,0 +1,26 @@
+{
+  "LEAInfo": {
+    "LEAContactList": {
+      "LEAContact": {
+        "ContactInfo": {
+          "Address": {
+            "StatisticalAreas": {
+              "StatisticalArea": "[]"
+            }
+          }
+        }
+      }
+    },
+    "SIF_Metadata": {
+      "LifeCycle": {
+        "TimeElements": {
+          "TimeElement": {
+            "SpanGaps": {
+              "SpanGap": "[]"
+            }
+          }
+        }
+      }
+    }
+  }
+}

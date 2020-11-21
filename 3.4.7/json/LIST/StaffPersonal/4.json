@@ -1,0 +1,38 @@
+{
+  "StaffPersonal": {
+    "PersonInfo": {
+      "Demographics": {
+        "CountriesOfCitizenship": {
+          "CountryOfCitizenship": "[]"
+        },
+        "CountriesOfResidency": {
+          "CountryOfResidency": "[]"
+        },
+        "LanguageList": {
+          "Language": "[]"
+        },
+        "ReligiousEventList": {
+          "ReligiousEvent": "[]"
+        },
+        "VisaSubClassList": {
+          "VisaSubClass": "[]"
+        }
+      }
+    },
+    "SIF_Metadata": {
+      "EducationFilter": {
+        "LearningStandardItems": {
+          "LearningStandardItemRefId": "[]"
+        }
+      },
+      "LifeCycle": {
+        "ModificationHistory": {
+          "Modified": "[]"
+        },
+        "TimeElements": {
+          "TimeElement": "[]"
+        }
+      }
+    }
+  }
+}

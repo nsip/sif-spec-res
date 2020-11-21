@@ -1,0 +1,14 @@
+{
+  "StudentActivityInfo": {
+    "SIF_Metadata": {
+      "TimeElements": {
+        "TimeElement": "[]"
+      }
+    },
+    "StudentActivityType": {
+      "OtherCodeList": {
+        "OtherCode": "[]"
+      }
+    }
+  }
+}

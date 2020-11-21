@@ -1,0 +1,23 @@
+{
+  "MarkValueInfo": {
+    "LocalCodeList": {
+      "LocalCode": {
+        "ListIndex": "(N)"
+      }
+    },
+    "NarrativeMaximumSize": "(N)",
+    "NumericHigh": "(N)",
+    "NumericLow": "(N)",
+    "NumericPassingGrade": "(N)",
+    "NumericPrecision": "(N)",
+    "NumericScale": "(N)",
+    "PercentageMaximum": "(N)",
+    "PercentageMinimum": "(N)",
+    "PercentagePassingGrade": "(N)",
+    "ValidLetterMarkList": {
+      "ValidLetterMark": {
+        "NumericEquivalent": "(N)"
+      }
+    }
+  }
+}

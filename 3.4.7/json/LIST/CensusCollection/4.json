@@ -1,0 +1,29 @@
+{
+  "CensusCollection": {
+    "CensusReportingList": {
+      "CensusReporting": {
+        "CensusStaffList": {
+          "CensusStaff": "[]"
+        },
+        "CensusStudentList": {
+          "CensusStudent": "[]"
+        }
+      }
+    },
+    "SIF_Metadata": {
+      "EducationFilter": {
+        "LearningStandardItems": {
+          "LearningStandardItemRefId": "[]"
+        }
+      },
+      "LifeCycle": {
+        "ModificationHistory": {
+          "Modified": "[]"
+        },
+        "TimeElements": {
+          "TimeElement": "[]"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "Activity": {
+    "EssentialMaterials": {
+      "EssentialMaterial": "[]"
+    },
+    "LearningObjectives": {
+      "LearningObjective": "[]"
+    },
+    "LearningResources": {
+      "LearningResourceRefId": "[]"
+    },
+    "LearningStandards": {
+      "LearningStandardItemRefId": "[]"
+    },
+    "LocalCodeList": {
+      "LocalCode": "[]"
+    },
+    "Prerequisites": {
+      "Prerequisite": "[]"
+    },
+    "SIF_ExtendedElements": {
+      "SIF_ExtendedElement": "[]"
+    },
+    "SoftwareRequirementList": {
+      "SoftwareRequirement": "[]"
+    },
+    "SourceObjects": {
+      "SourceObject": "[]"
+    },
+    "Students": {
+      "StudentPersonalRefId": "[]"
+    }
+  }
+}

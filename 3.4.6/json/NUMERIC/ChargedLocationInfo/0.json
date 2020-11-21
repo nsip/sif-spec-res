@@ -1,0 +1,22 @@
+{
+  "ChargedLocationInfo": {
+    "AddressList": {
+      "Address": {
+        "GridLocation": {
+          "Latitude": "(N)",
+          "Longitude": "(N)"
+        }
+      }
+    },
+    "LocalCodeList": {
+      "LocalCode": {
+        "ListIndex": "(N)"
+      }
+    },
+    "PhoneNumberList": {
+      "PhoneNumber": {
+        "Preference": "(N)"
+      }
+    }
+  }
+}

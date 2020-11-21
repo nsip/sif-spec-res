@@ -1,0 +1,12 @@
+{
+  "TimeTableSubject": {
+    "LocalCodeList": {
+      "LocalCode": {
+        "ListIndex": "(N)"
+      }
+    },
+    "ProposedMaxClassSize": "(N)",
+    "ProposedMinClassSize": "(N)",
+    "Semester": "(N)"
+  }
+}

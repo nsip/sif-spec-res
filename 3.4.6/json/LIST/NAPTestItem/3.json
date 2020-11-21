@@ -1,0 +1,23 @@
+{
+  "NAPTestItem": {
+    "SIF_Metadata": {
+      "TimeElements": {
+        "TimeElement": "[]"
+      }
+    },
+    "TestItemContent": {
+      "ContentDescriptionList": {
+        "ContentDescription": "[]"
+      },
+      "ItemSubstitutedForList": {
+        "SubstituteItem": "[]"
+      },
+      "NAPWritingRubricList": {
+        "NAPWritingRubric": "[]"
+      },
+      "StimulusList": {
+        "Stimulus": "[]"
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "FinancialQuestionnaireCollection": {
+    "FQReportingList": {
+      "FQReporting": {
+        "AGRuleList": {
+          "AGRule": "[]"
+        },
+        "FQContextualQuestionList": {
+          "FQContextualQuestion": "[]"
+        },
+        "FQItemList": {
+          "FQItem": "[]"
+        }
+      }
+    },
+    "SIF_Metadata": {
+      "EducationFilter": {
+        "LearningStandardItems": {
+          "LearningStandardItemRefId": "[]"
+        }
+      },
+      "LifeCycle": {
+        "ModificationHistory": {
+          "Modified": "[]"
+        },
+        "TimeElements": {
+          "TimeElement": "[]"
+        }
+      }
+    }
+  }
+}

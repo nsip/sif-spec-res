@@ -1,0 +1,20 @@
+{
+  "VendorInfo": {
+    "SIF_Metadata": {
+      "LifeCycle": {
+        "Created": {
+          "Creators": {
+            "Creator": "[]"
+          }
+        }
+      },
+      "TimeElements": {
+        "TimeElement": {
+          "SpanGaps": {
+            "SpanGap": "[]"
+          }
+        }
+      }
+    }
+  }
+}

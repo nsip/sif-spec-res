@@ -1,0 +1,19 @@
+{
+  "TimeTableSubject": {
+    "SIF_Metadata": {
+      "EducationFilter": {
+        "LearningStandardItems": {
+          "LearningStandardItemRefId": "[]"
+        }
+      },
+      "LifeCycle": {
+        "ModificationHistory": {
+          "Modified": "[]"
+        },
+        "TimeElements": {
+          "TimeElement": "[]"
+        }
+      }
+    }
+  }
+}

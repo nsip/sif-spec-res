@@ -1,0 +1,48 @@
+{
+  "FinancialQuestionnaireCollection": {
+    "FQReportingList": {
+      "FQReporting": {
+        "EntityContact": {
+          "Address": {
+            "GridLocation": {
+              "Latitude": {
+                "#content": "(N)"
+              },
+              "Longitude": {
+                "#content": "(N)"
+              }
+            }
+          },
+          "PhoneNumber": {
+            "Preference": {
+              "#content": "(N)"
+            }
+          }
+        },
+        "FQItemList": {
+          "FQItem": {
+            "BoardingAmount": {
+              "#content": "(N)"
+            },
+            "DioceseAmount": {
+              "#content": "(N)"
+            },
+            "SystemAmount": {
+              "#content": "(N)"
+            },
+            "TuitionAmount": {
+              "#content": "(N)"
+            }
+          }
+        }
+      }
+    },
+    "LocalCodeList": {
+      "LocalCode": {
+        "ListIndex": {
+          "#content": "(N)"
+        }
+      }
+    }
+  }
+}

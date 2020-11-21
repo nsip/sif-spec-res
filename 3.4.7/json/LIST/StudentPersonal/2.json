@@ -1,0 +1,22 @@
+{
+  "StudentPersonal": {
+    "AlertMessages": {
+      "AlertMessage": "[]"
+    },
+    "ElectronicIdList": {
+      "ElectronicId": "[]"
+    },
+    "LocalCodeList": {
+      "LocalCode": "[]"
+    },
+    "MedicalAlertMessages": {
+      "MedicalAlertMessage": "[]"
+    },
+    "OtherIdList": {
+      "OtherId": "[]"
+    },
+    "SIF_ExtendedElements": {
+      "SIF_ExtendedElement": "[]"
+    }
+  }
+}

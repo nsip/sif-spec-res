@@ -1,0 +1,34 @@
+{
+  "CensusCollection": {
+    "CensusReportingList": {
+      "CensusReporting": {
+        "CensusStaffList": {
+          "CensusStaff": {
+            "Headcount": "(N)",
+            "JobFTE": "(N)",
+            "PrimaryFTE": "(N)",
+            "SecondaryFTE": "(N)"
+          }
+        },
+        "CensusStudentList": {
+          "CensusStudent": {
+            "CensusAge": "(N)",
+            "FTE": "(N)",
+            "Headcount": "(N)"
+          }
+        },
+        "EntityContact": {
+          "Address": {
+            "GridLocation": {
+              "Latitude": "(N)",
+              "Longitude": "(N)"
+            }
+          },
+          "PhoneNumber": {
+            "Preference": "(N)"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "StudentPersonal": {
+    "PersonInfo": {
+      "AddressList": {
+        "Address": "[]"
+      },
+      "EmailList": {
+        "Email": "[]"
+      },
+      "HouseholdContactInfoList": {
+        "HouseholdContactInfo": "[]"
+      },
+      "OtherNames": {
+        "Name": "[]"
+      },
+      "PhoneNumberList": {
+        "PhoneNumber": "[]"
+      }
+    },
+    "SIF_Metadata": {
+      "TimeElements": {
+        "TimeElement": "[]"
+      }
+    }
+  }
+}

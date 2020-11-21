@@ -1,0 +1,29 @@
+{
+  "AddressCollection": {
+    "AddressCollectionReportingList": {
+      "AddressCollectionReporting": {
+        "AGContextualQuestionList": {
+          "AGContextualQuestion": "[]"
+        },
+        "AddressCollectionStudentList": {
+          "AddressCollectionStudent": "[]"
+        }
+      }
+    },
+    "SIF_Metadata": {
+      "EducationFilter": {
+        "LearningStandardItems": {
+          "LearningStandardItemRefId": "[]"
+        }
+      },
+      "LifeCycle": {
+        "ModificationHistory": {
+          "Modified": "[]"
+        },
+        "TimeElements": {
+          "TimeElement": "[]"
+        }
+      }
+    }
+  }
+}

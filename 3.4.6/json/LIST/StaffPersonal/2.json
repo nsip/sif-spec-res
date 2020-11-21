@@ -1,0 +1,16 @@
+{
+  "StaffPersonal": {
+    "ElectronicIdList": {
+      "ElectronicId": "[]"
+    },
+    "LocalCodeList": {
+      "LocalCode": "[]"
+    },
+    "OtherIdList": {
+      "OtherId": "[]"
+    },
+    "SIF_ExtendedElements": {
+      "SIF_ExtendedElement": "[]"
+    }
+  }
+}

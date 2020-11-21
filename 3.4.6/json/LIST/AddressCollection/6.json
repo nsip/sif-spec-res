@@ -1,0 +1,26 @@
+{
+  "AddressCollection": {
+    "AddressCollectionReportingList": {
+      "AddressCollectionReporting": {
+        "EntityContact": {
+          "Address": {
+            "StatisticalAreas": {
+              "StatisticalArea": "[]"
+            }
+          }
+        }
+      }
+    },
+    "SIF_Metadata": {
+      "LifeCycle": {
+        "TimeElements": {
+          "TimeElement": {
+            "SpanGaps": {
+              "SpanGap": "[]"
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "PaymentReceipt": {
+    "LocalCodeList": {
+      "LocalCode": {
+        "ListIndex": {
+          "#content": "(N)"
+        }
+      }
+    },
+    "PaymentReceiptLineList": {
+      "PaymentReceiptLine": {
+        "TaxAmount": {
+          "#content": "(N)"
+        },
+        "TaxRate": {
+          "#content": "(N)"
+        },
+        "TransactionAmount": {
+          "#content": "(N)"
+        }
+      }
+    },
+    "TaxAmount": {
+      "#content": "(N)"
+    },
+    "TaxRate": {
+      "#content": "(N)"
+    },
+    "TransactionAmount": {
+      "#content": "(N)"
+    }
+  }
+}

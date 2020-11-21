@@ -1,0 +1,18 @@
+{
+  "StudentGrade": {
+    "Grade": {
+      "Numeric": "(N)",
+      "Percentage": "(N)"
+    },
+    "GradingScoreList": {
+      "GradingAssignmentScore": {
+        "Weight": "(N)"
+      }
+    },
+    "LocalCodeList": {
+      "LocalCode": {
+        "ListIndex": "(N)"
+      }
+    }
+  }
+}

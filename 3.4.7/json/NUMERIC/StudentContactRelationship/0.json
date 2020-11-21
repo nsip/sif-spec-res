@@ -1,0 +1,10 @@
+{
+  "StudentContactRelationship": {
+    "ContactSequence": "(N)",
+    "LocalCodeList": {
+      "LocalCode": {
+        "ListIndex": "(N)"
+      }
+    }
+  }
+}

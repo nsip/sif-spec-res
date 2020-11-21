@@ -1,0 +1,16 @@
+{
+  "StudentSchoolEnrollment": {
+    "CensusAge": "(N)",
+    "FTE": "(N)",
+    "LocalCodeList": {
+      "LocalCode": {
+        "ListIndex": "(N)"
+      }
+    },
+    "StudentSubjectChoiceList": {
+      "StudentSubjectChoice": {
+        "PreferenceNumber": "(N)"
+      }
+    }
+  }
+}

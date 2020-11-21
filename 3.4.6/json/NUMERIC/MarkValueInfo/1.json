@@ -1,0 +1,45 @@
+{
+  "MarkValueInfo": {
+    "LocalCodeList": {
+      "LocalCode": {
+        "ListIndex": {
+          "#content": "(N)"
+        }
+      }
+    },
+    "NarrativeMaximumSize": {
+      "#content": "(N)"
+    },
+    "NumericHigh": {
+      "#content": "(N)"
+    },
+    "NumericLow": {
+      "#content": "(N)"
+    },
+    "NumericPassingGrade": {
+      "#content": "(N)"
+    },
+    "NumericPrecision": {
+      "#content": "(N)"
+    },
+    "NumericScale": {
+      "#content": "(N)"
+    },
+    "PercentageMaximum": {
+      "#content": "(N)"
+    },
+    "PercentageMinimum": {
+      "#content": "(N)"
+    },
+    "PercentagePassingGrade": {
+      "#content": "(N)"
+    },
+    "ValidLetterMarkList": {
+      "ValidLetterMark": {
+        "NumericEquivalent": {
+          "#content": "(N)"
+        }
+      }
+    }
+  }
+}

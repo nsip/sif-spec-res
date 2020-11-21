@@ -1,0 +1,29 @@
+{
+  "StudentSchoolEnrollment": {
+    "CatchmentStatus": {
+      "OtherCodeList": {
+        "OtherCode": "[]"
+      }
+    },
+    "EntryType": {
+      "OtherCodeList": {
+        "OtherCode": "[]"
+      }
+    },
+    "ExitStatus": {
+      "OtherCodeList": {
+        "OtherCode": "[]"
+      }
+    },
+    "ExitType": {
+      "OtherCodeList": {
+        "OtherCode": "[]"
+      }
+    },
+    "SIF_Metadata": {
+      "TimeElements": {
+        "TimeElement": "[]"
+      }
+    }
+  }
+}

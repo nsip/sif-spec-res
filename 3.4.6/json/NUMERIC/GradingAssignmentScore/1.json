@@ -1,0 +1,24 @@
+{
+  "GradingAssignmentScore": {
+    "LocalCodeList": {
+      "LocalCode": {
+        "ListIndex": {
+          "#content": "(N)"
+        }
+      }
+    },
+    "ScorePercent": {
+      "#content": "(N)"
+    },
+    "ScorePoints": {
+      "#content": "(N)"
+    },
+    "SubscoreList": {
+      "Subscore": {
+        "SubscoreValue": {
+          "#content": "(N)"
+        }
+      }
+    }
+  }
+}

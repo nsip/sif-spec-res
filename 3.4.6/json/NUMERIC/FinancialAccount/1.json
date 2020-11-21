@@ -1,0 +1,11 @@
+{
+  "FinancialAccount": {
+    "LocalCodeList": {
+      "LocalCode": {
+        "ListIndex": {
+          "#content": "(N)"
+        }
+      }
+    }
+  }
+}

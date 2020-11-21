@@ -1,0 +1,22 @@
+{
+  "VendorInfo": {
+    "ContactInfo": {
+      "Address": {
+        "GridLocation": {
+          "Latitude": "(N)",
+          "Longitude": "(N)"
+        }
+      },
+      "PhoneNumberList": {
+        "PhoneNumber": {
+          "Preference": "(N)"
+        }
+      }
+    },
+    "LocalCodeList": {
+      "LocalCode": {
+        "ListIndex": "(N)"
+      }
+    }
+  }
+}

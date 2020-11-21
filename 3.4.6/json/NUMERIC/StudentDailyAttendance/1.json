@@ -1,0 +1,14 @@
+{
+  "StudentDailyAttendance": {
+    "AbsenceValue": {
+      "#content": "(N)"
+    },
+    "LocalCodeList": {
+      "LocalCode": {
+        "ListIndex": {
+          "#content": "(N)"
+        }
+      }
+    }
+  }
+}

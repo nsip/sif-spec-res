@@ -1,0 +1,30 @@
+{
+  "LearningResource": {
+    "Contacts": {
+      "Contact": {
+        "Address": {
+          "GridLocation": {
+            "Latitude": {
+              "#content": "(N)"
+            },
+            "Longitude": {
+              "#content": "(N)"
+            }
+          }
+        },
+        "PhoneNumber": {
+          "Preference": {
+            "#content": "(N)"
+          }
+        }
+      }
+    },
+    "LocalCodeList": {
+      "LocalCode": {
+        "ListIndex": {
+          "#content": "(N)"
+        }
+      }
+    }
+  }
+}

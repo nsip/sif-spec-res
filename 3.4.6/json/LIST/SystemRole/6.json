@@ -1,0 +1,26 @@
+{
+  "SystemRole": {
+    "SIF_Metadata": {
+      "LifeCycle": {
+        "TimeElements": {
+          "TimeElement": {
+            "SpanGaps": {
+              "SpanGap": "[]"
+            }
+          }
+        }
+      }
+    },
+    "SystemContextList": {
+      "SystemContext": {
+        "RoleList": {
+          "Role": {
+            "RoleScopeList": {
+              "RoleScope": "[]"
+            }
+          }
+        }
+      }
+    }
+  }
+}

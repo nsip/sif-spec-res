@@ -1,0 +1,12 @@
+{
+  "CalendarSummary": {
+    "DaysInSession": "(N)",
+    "InstructionalMinutes": "(N)",
+    "LocalCodeList": {
+      "LocalCode": {
+        "ListIndex": "(N)"
+      }
+    },
+    "MinutesPerDay": "(N)"
+  }
+}

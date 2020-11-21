@@ -1,0 +1,13 @@
+{
+  "PurchaseOrder": {
+    "LocalCodeList": {
+      "LocalCode": "[]"
+    },
+    "PurchasingItems": {
+      "PurchasingItem": "[]"
+    },
+    "SIF_ExtendedElements": {
+      "SIF_ExtendedElement": "[]"
+    }
+  }
+}

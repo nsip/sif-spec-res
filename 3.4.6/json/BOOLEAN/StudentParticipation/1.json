@@ -1,0 +1,28 @@
+{
+  "StudentParticipation": {
+    "ExtendedDay": {
+      "#content": "(B)"
+    },
+    "ExtendedSchoolYear": {
+      "#content": "(B)"
+    },
+    "SIF_Metadata": {
+      "LifeCycle": {
+        "TimeElements": {
+          "TimeElement": {
+            "IsCurrent": {
+              "#content": "(B)"
+            }
+          }
+        }
+      },
+      "TimeElements": {
+        "TimeElement": {
+          "IsCurrent": {
+            "#content": "(B)"
+          }
+        }
+      }
+    }
+  }
+}

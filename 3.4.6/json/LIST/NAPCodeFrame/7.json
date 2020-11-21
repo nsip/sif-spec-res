@@ -1,0 +1,26 @@
+{
+  "NAPCodeFrame": {
+    "TestletList": {
+      "Testlet": {
+        "TestItemList": {
+          "TestItem": {
+            "TestItemContent": {
+              "ContentDescriptionList": {
+                "ContentDescription": "[]"
+              },
+              "ItemSubstitutedForList": {
+                "SubstituteItem": "[]"
+              },
+              "NAPWritingRubricList": {
+                "NAPWritingRubric": "[]"
+              },
+              "StimulusList": {
+                "Stimulus": "[]"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

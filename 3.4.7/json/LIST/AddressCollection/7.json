@@ -1,0 +1,17 @@
+{
+  "AddressCollection": {
+    "AddressCollectionReportingList": {
+      "AddressCollectionReporting": {
+        "AddressCollectionStudentList": {
+          "AddressCollectionStudent": {
+            "StudentAddress": {
+              "StatisticalAreas": {
+                "StatisticalArea": "[]"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

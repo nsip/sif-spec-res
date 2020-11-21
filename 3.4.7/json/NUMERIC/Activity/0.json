@@ -1,0 +1,15 @@
+{
+  "Activity": {
+    "ActivityTime": {
+      "Duration": "(N)"
+    },
+    "ActivityWeight": "(N)",
+    "LocalCodeList": {
+      "LocalCode": {
+        "ListIndex": "(N)"
+      }
+    },
+    "MaxAttemptsAllowed": "(N)",
+    "Points": "(N)"
+  }
+}

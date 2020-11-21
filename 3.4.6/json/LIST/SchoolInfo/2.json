@@ -1,0 +1,37 @@
+{
+  "SchoolInfo": {
+    "AddressList": {
+      "Address": "[]"
+    },
+    "LocalCodeList": {
+      "LocalCode": "[]"
+    },
+    "OtherIdList": {
+      "OtherId": "[]"
+    },
+    "PhoneNumberList": {
+      "PhoneNumber": "[]"
+    },
+    "SIF_ExtendedElements": {
+      "SIF_ExtendedElement": "[]"
+    },
+    "SchoolContactList": {
+      "SchoolContact": "[]"
+    },
+    "SchoolEmailList": {
+      "Email": "[]"
+    },
+    "SchoolFocusList": {
+      "SchoolFocus": "[]"
+    },
+    "SchoolGroupList": {
+      "SchoolGroup": "[]"
+    },
+    "YearLevelEnrollmentList": {
+      "YearLevelEnrollment": "[]"
+    },
+    "YearLevels": {
+      "YearLevel": "[]"
+    }
+  }
+}

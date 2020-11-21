@@ -1,0 +1,13 @@
+{
+  "AddressCollection": {
+    "AddressCollectionReportingList": {
+      "AddressCollectionReporting": "[]"
+    },
+    "LocalCodeList": {
+      "LocalCode": "[]"
+    },
+    "SIF_ExtendedElements": {
+      "SIF_ExtendedElement": "[]"
+    }
+  }
+}

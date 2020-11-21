@@ -1,0 +1,29 @@
+{
+  "LibraryPatronStatus": {
+    "SIF_Metadata": {
+      "EducationFilter": {
+        "LearningStandardItems": {
+          "LearningStandardItemRefId": "[]"
+        }
+      },
+      "LifeCycle": {
+        "ModificationHistory": {
+          "Modified": "[]"
+        },
+        "TimeElements": {
+          "TimeElement": "[]"
+        }
+      }
+    },
+    "TransactionList": {
+      "Transaction": {
+        "FineInfoList": {
+          "FineInfo": "[]"
+        },
+        "HoldInfoList": {
+          "HoldInfo": "[]"
+        }
+      }
+    }
+  }
+}

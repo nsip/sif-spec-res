@@ -1,0 +1,22 @@
+{
+  "SchoolCourseInfo": {
+    "SIF_Metadata": {
+      "LifeCycle": {
+        "TimeElements": {
+          "TimeElement": {
+            "IsCurrent": {
+              "#content": "(B)"
+            }
+          }
+        }
+      },
+      "TimeElements": {
+        "TimeElement": {
+          "IsCurrent": {
+            "#content": "(B)"
+          }
+        }
+      }
+    }
+  }
+}

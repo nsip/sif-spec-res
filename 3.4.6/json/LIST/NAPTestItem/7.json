@@ -1,0 +1,17 @@
+{
+  "NAPTestItem": {
+    "TestItemContent": {
+      "NAPWritingRubricList": {
+        "NAPWritingRubric": {
+          "ScoreList": {
+            "Score": {
+              "ScoreDescriptionList": {
+                "ScoreDescription": "[]"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

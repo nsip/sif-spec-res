@@ -1,0 +1,30 @@
+{
+  "ScheduledActivity": {
+    "AddressList": {
+      "Address": {
+        "GridLocation": {
+          "Latitude": {
+            "#content": "(N)"
+          },
+          "Longitude": {
+            "#content": "(N)"
+          }
+        }
+      }
+    },
+    "LocalCodeList": {
+      "LocalCode": {
+        "ListIndex": {
+          "#content": "(N)"
+        }
+      }
+    },
+    "TeacherList": {
+      "TeacherCover": {
+        "Weighting": {
+          "#content": "(N)"
+        }
+      }
+    }
+  }
+}

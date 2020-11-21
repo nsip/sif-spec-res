@@ -1,0 +1,24 @@
+{
+  "StudentParticipation": {
+    "ProgramAvailability": {
+      "OtherCodeList": {
+        "OtherCode": "[]"
+      }
+    },
+    "ProgramStatus": {
+      "OtherCodeList": {
+        "OtherCode": "[]"
+      }
+    },
+    "ReferralSource": {
+      "OtherCodeList": {
+        "OtherCode": "[]"
+      }
+    },
+    "SIF_Metadata": {
+      "TimeElements": {
+        "TimeElement": "[]"
+      }
+    }
+  }
+}

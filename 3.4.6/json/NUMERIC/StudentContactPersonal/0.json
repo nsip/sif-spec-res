@@ -1,0 +1,42 @@
+{
+  "StudentContactPersonal": {
+    "LocalCodeList": {
+      "LocalCode": {
+        "ListIndex": "(N)"
+      }
+    },
+    "PersonInfo": {
+      "AddressList": {
+        "Address": {
+          "GridLocation": {
+            "Latitude": "(N)",
+            "Longitude": "(N)"
+          }
+        }
+      },
+      "HouseholdContactInfoList": {
+        "HouseholdContactInfo": {
+          "AddressList": {
+            "Address": {
+              "GridLocation": {
+                "Latitude": "(N)",
+                "Longitude": "(N)"
+              }
+            }
+          },
+          "PhoneNumberList": {
+            "PhoneNumber": {
+              "Preference": "(N)"
+            }
+          },
+          "PreferenceNumber": "(N)"
+        }
+      },
+      "PhoneNumberList": {
+        "PhoneNumber": {
+          "Preference": "(N)"
+        }
+      }
+    }
+  }
+}

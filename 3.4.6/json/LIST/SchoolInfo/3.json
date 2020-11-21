@@ -1,0 +1,17 @@
+{
+  "SchoolInfo": {
+    "PrincipalInfo": {
+      "EmailList": {
+        "Email": "[]"
+      },
+      "PhoneNumberList": {
+        "PhoneNumber": "[]"
+      }
+    },
+    "SIF_Metadata": {
+      "TimeElements": {
+        "TimeElement": "[]"
+      }
+    }
+  }
+}

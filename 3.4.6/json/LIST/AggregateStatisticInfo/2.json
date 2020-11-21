@@ -1,0 +1,13 @@
+{
+  "AggregateStatisticInfo": {
+    "ExclusionRules": {
+      "ExclusionRule": "[]"
+    },
+    "LocalCodeList": {
+      "LocalCode": "[]"
+    },
+    "SIF_ExtendedElements": {
+      "SIF_ExtendedElement": "[]"
+    }
+  }
+}

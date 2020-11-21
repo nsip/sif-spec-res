@@ -1,0 +1,16 @@
+{
+  "ChargedLocationInfo": {
+    "AddressList": {
+      "Address": "[]"
+    },
+    "LocalCodeList": {
+      "LocalCode": "[]"
+    },
+    "PhoneNumberList": {
+      "PhoneNumber": "[]"
+    },
+    "SIF_ExtendedElements": {
+      "SIF_ExtendedElement": "[]"
+    }
+  }
+}

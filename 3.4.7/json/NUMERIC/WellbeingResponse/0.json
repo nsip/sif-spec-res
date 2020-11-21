@@ -1,0 +1,12 @@
+{
+  "WellbeingResponse": {
+    "LocalCodeList": {
+      "LocalCode": {
+        "ListIndex": "(N)"
+      }
+    },
+    "Suspension": {
+      "Duration": "(N)"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "NAPEventStudentLink": {
+    "DOBRange": "(B)",
+    "PSIOtherIdMatch": "(B)",
+    "PersonalDetailsChanged": "(B)",
+    "PossibleDuplicate": "(B)",
+    "SIF_Metadata": {
+      "LifeCycle": {
+        "TimeElements": {
+          "TimeElement": {
+            "IsCurrent": "(B)"
+          }
+        }
+      },
+      "TimeElements": {
+        "TimeElement": {
+          "IsCurrent": "(B)"
+        }
+      }
+    }
+  }
+}

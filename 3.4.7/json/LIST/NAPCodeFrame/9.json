@@ -1,0 +1,28 @@
+{
+  "NAPCodeFrame": {
+    "TestletList": {
+      "Testlet": {
+        "TestItemList": {
+          "TestItem": {
+            "TestItemContent": {
+              "ItemSubstitutedForList": {
+                "SubstituteItem": {
+                  "PNPCodeList": {
+                    "PNPCode": "[]"
+                  }
+                }
+              },
+              "NAPWritingRubricList": {
+                "NAPWritingRubric": {
+                  "ScoreList": {
+                    "Score": "[]"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

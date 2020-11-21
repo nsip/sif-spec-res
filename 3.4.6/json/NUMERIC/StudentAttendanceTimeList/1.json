@@ -1,0 +1,29 @@
+{
+  "StudentAttendanceTimeList": {
+    "AttendanceTimes": {
+      "AttendanceTime": {
+        "DurationValue": {
+          "#content": "(N)"
+        }
+      }
+    },
+    "LocalCodeList": {
+      "LocalCode": {
+        "ListIndex": {
+          "#content": "(N)"
+        }
+      }
+    },
+    "PeriodAttendances": {
+      "PeriodAttendance": {
+        "TeacherList": {
+          "TeacherCover": {
+            "Weighting": {
+              "#content": "(N)"
+            }
+          }
+        }
+      }
+    }
+  }
+}

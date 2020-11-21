@@ -1,0 +1,65 @@
+{
+  "SchoolInfo": {
+    "ARIA": {
+      "#content": "(N)"
+    },
+    "AddressList": {
+      "Address": {
+        "GridLocation": {
+          "Latitude": {
+            "#content": "(N)"
+          },
+          "Longitude": {
+            "#content": "(N)"
+          }
+        }
+      }
+    },
+    "LocalCodeList": {
+      "LocalCode": {
+        "ListIndex": {
+          "#content": "(N)"
+        }
+      }
+    },
+    "PhoneNumberList": {
+      "PhoneNumber": {
+        "Preference": {
+          "#content": "(N)"
+        }
+      }
+    },
+    "PrincipalInfo": {
+      "PhoneNumberList": {
+        "PhoneNumber": {
+          "Preference": {
+            "#content": "(N)"
+          }
+        }
+      }
+    },
+    "SchoolContactList": {
+      "SchoolContact": {
+        "ContactInfo": {
+          "Address": {
+            "GridLocation": {
+              "Latitude": {
+                "#content": "(N)"
+              },
+              "Longitude": {
+                "#content": "(N)"
+              }
+            }
+          },
+          "PhoneNumberList": {
+            "PhoneNumber": {
+              "Preference": {
+                "#content": "(N)"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

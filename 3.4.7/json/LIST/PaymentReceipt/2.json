@@ -1,0 +1,19 @@
+{
+  "PaymentReceipt": {
+    "AccountCodeList": {
+      "AccountCode": "[]"
+    },
+    "FinancialAccountRefIdList": {
+      "FinancialAccountRefId": "[]"
+    },
+    "LocalCodeList": {
+      "LocalCode": "[]"
+    },
+    "PaymentReceiptLineList": {
+      "PaymentReceiptLine": "[]"
+    },
+    "SIF_ExtendedElements": {
+      "SIF_ExtendedElement": "[]"
+    }
+  }
+}

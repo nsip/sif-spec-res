@@ -1,0 +1,40 @@
+{
+  "PurchaseOrder": {
+    "LocalCodeList": {
+      "LocalCode": {
+        "ListIndex": {
+          "#content": "(N)"
+        }
+      }
+    },
+    "PurchasingItems": {
+      "PurchasingItem": {
+        "ExpenseAccounts": {
+          "ExpenseAccount": {
+            "Amount": {
+              "#content": "(N)"
+            }
+          }
+        },
+        "TaxRate": {
+          "#content": "(N)"
+        },
+        "TotalCost": {
+          "#content": "(N)"
+        },
+        "UnitCost": {
+          "#content": "(N)"
+        }
+      }
+    },
+    "TaxAmount": {
+      "#content": "(N)"
+    },
+    "TaxRate": {
+      "#content": "(N)"
+    },
+    "TotalAmount": {
+      "#content": "(N)"
+    }
+  }
+}

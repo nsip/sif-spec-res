@@ -1,0 +1,16 @@
+{
+  "WellbeingResponse": {
+    "DocumentList": {
+      "Document": "[]"
+    },
+    "LocalCodeList": {
+      "LocalCode": "[]"
+    },
+    "PersonInvolvementList": {
+      "PersonInvolvement": "[]"
+    },
+    "SIF_ExtendedElements": {
+      "SIF_ExtendedElement": "[]"
+    }
+  }
+}

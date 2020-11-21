@@ -1,0 +1,31 @@
+{
+  "TimeTable": {
+    "DaysPerCycle": {
+      "#content": "(N)"
+    },
+    "LocalCodeList": {
+      "LocalCode": {
+        "ListIndex": {
+          "#content": "(N)"
+        }
+      }
+    },
+    "PeriodsPerDay": {
+      "#content": "(N)"
+    },
+    "TeachingPeriodsPerDay": {
+      "#content": "(N)"
+    },
+    "TimeTableDayList": {
+      "TimeTableDay": {
+        "TimeTablePeriodList": {
+          "TimeTablePeriod": {
+            "InstructionalMinutes": {
+              "#content": "(N)"
+            }
+          }
+        }
+      }
+    }
+  }
+}

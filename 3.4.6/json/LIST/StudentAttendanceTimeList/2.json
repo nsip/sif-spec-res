@@ -1,0 +1,16 @@
+{
+  "StudentAttendanceTimeList": {
+    "AttendanceTimes": {
+      "AttendanceTime": "[]"
+    },
+    "LocalCodeList": {
+      "LocalCode": "[]"
+    },
+    "PeriodAttendances": {
+      "PeriodAttendance": "[]"
+    },
+    "SIF_ExtendedElements": {
+      "SIF_ExtendedElement": "[]"
+    }
+  }
+}

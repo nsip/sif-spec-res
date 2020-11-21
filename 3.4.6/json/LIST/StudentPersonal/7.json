@@ -1,0 +1,17 @@
+{
+  "StudentPersonal": {
+    "PersonInfo": {
+      "HouseholdContactInfoList": {
+        "HouseholdContactInfo": {
+          "AddressList": {
+            "Address": {
+              "StatisticalAreas": {
+                "StatisticalArea": "[]"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

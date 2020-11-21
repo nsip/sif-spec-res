@@ -1,0 +1,14 @@
+{
+  "StaffAssignment": {
+    "SIF_Metadata": {
+      "TimeElements": {
+        "TimeElement": "[]"
+      }
+    },
+    "StaffActivity": {
+      "OtherCodeList": {
+        "OtherCode": "[]"
+      }
+    }
+  }
+}

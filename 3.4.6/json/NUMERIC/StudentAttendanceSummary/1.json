@@ -1,0 +1,35 @@
+{
+  "StudentAttendanceSummary": {
+    "DaysAttended": {
+      "#content": "(N)"
+    },
+    "DaysInMembership": {
+      "#content": "(N)"
+    },
+    "DaysTardy": {
+      "#content": "(N)"
+    },
+    "EndDay": {
+      "#content": "(N)"
+    },
+    "ExcusedAbsences": {
+      "#content": "(N)"
+    },
+    "FTE": {
+      "#content": "(N)"
+    },
+    "LocalCodeList": {
+      "LocalCode": {
+        "ListIndex": {
+          "#content": "(N)"
+        }
+      }
+    },
+    "StartDay": {
+      "#content": "(N)"
+    },
+    "UnexcusedAbsences": {
+      "#content": "(N)"
+    }
+  }
+}

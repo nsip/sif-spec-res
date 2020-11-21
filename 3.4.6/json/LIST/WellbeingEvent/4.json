@@ -1,0 +1,26 @@
+{
+  "WellbeingEvent": {
+    "SIF_Metadata": {
+      "EducationFilter": {
+        "LearningStandardItems": {
+          "LearningStandardItemRefId": "[]"
+        }
+      },
+      "LifeCycle": {
+        "ModificationHistory": {
+          "Modified": "[]"
+        },
+        "TimeElements": {
+          "TimeElement": "[]"
+        }
+      }
+    },
+    "WellbeingEventCategoryList": {
+      "WellbeingEventCategory": {
+        "WellbeingEventSubCategoryList": {
+          "WellbeingEventSubCategory": "[]"
+        }
+      }
+    }
+  }
+}

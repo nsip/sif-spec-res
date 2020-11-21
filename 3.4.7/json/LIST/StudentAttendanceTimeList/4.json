@@ -1,0 +1,29 @@
+{
+  "StudentAttendanceTimeList": {
+    "PeriodAttendances": {
+      "PeriodAttendance": {
+        "RoomList": {
+          "RoomInfoRefId": "[]"
+        },
+        "TeacherList": {
+          "TeacherCover": "[]"
+        }
+      }
+    },
+    "SIF_Metadata": {
+      "EducationFilter": {
+        "LearningStandardItems": {
+          "LearningStandardItemRefId": "[]"
+        }
+      },
+      "LifeCycle": {
+        "ModificationHistory": {
+          "Modified": "[]"
+        },
+        "TimeElements": {
+          "TimeElement": "[]"
+        }
+      }
+    }
+  }
+}

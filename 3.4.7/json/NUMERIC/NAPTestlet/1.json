@@ -1,0 +1,26 @@
+{
+  "NAPTestlet": {
+    "LocalCodeList": {
+      "LocalCode": {
+        "ListIndex": {
+          "#content": "(N)"
+        }
+      }
+    },
+    "TestItemList": {
+      "TestItem": {
+        "SequenceNumber": {
+          "#content": "(N)"
+        }
+      }
+    },
+    "TestletContent": {
+      "LocationInStage": {
+        "#content": "(N)"
+      },
+      "TestletMaximumScore": {
+        "#content": "(N)"
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "PaymentReceipt": {
+    "SIF_Metadata": {
+      "LifeCycle": {
+        "TimeElements": {
+          "TimeElement": {
+            "SpanGaps": {
+              "SpanGap": "[]"
+            }
+          }
+        }
+      }
+    }
+  }
+}

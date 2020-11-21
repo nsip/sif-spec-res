@@ -1,0 +1,32 @@
+{
+  "LEAInfo": {
+    "LEAContactList": {
+      "LEAContact": {
+        "ContactInfo": {
+          "EmailList": {
+            "Email": "[]"
+          },
+          "PhoneNumberList": {
+            "PhoneNumber": "[]"
+          }
+        }
+      }
+    },
+    "SIF_Metadata": {
+      "LifeCycle": {
+        "Created": {
+          "Creators": {
+            "Creator": "[]"
+          }
+        }
+      },
+      "TimeElements": {
+        "TimeElement": {
+          "SpanGaps": {
+            "SpanGap": "[]"
+          }
+        }
+      }
+    }
+  }
+}

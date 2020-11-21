@@ -1,0 +1,19 @@
+{
+  "CalendarDate": {
+    "AdministratorAttendance": {
+      "AttendanceValue": "(N)"
+    },
+    "CalendarDateNumber": "(N)",
+    "LocalCodeList": {
+      "LocalCode": {
+        "ListIndex": "(N)"
+      }
+    },
+    "StudentAttendance": {
+      "AttendanceValue": "(N)"
+    },
+    "TeacherAttendance": {
+      "AttendanceValue": "(N)"
+    }
+  }
+}

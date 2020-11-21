@@ -1,0 +1,15 @@
+{
+  "Journal": {
+    "Amount": "(N)",
+    "JournalAdjustmentList": {
+      "JournalAdjustment": {
+        "LineAdjustmentAmount": "(N)"
+      }
+    },
+    "LocalCodeList": {
+      "LocalCode": {
+        "ListIndex": "(N)"
+      }
+    }
+  }
+}

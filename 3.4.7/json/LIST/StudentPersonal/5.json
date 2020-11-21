@@ -1,0 +1,59 @@
+{
+  "StudentPersonal": {
+    "PersonInfo": {
+      "AddressList": {
+        "Address": {
+          "StatisticalAreas": {
+            "StatisticalArea": "[]"
+          }
+        }
+      },
+      "Demographics": {
+        "DwellingArrangement": {
+          "OtherCodeList": {
+            "OtherCode": "[]"
+          }
+        },
+        "EnglishProficiency": {
+          "OtherCodeList": {
+            "OtherCode": "[]"
+          }
+        },
+        "Religion": {
+          "OtherCodeList": {
+            "OtherCode": "[]"
+          }
+        }
+      },
+      "HouseholdContactInfoList": {
+        "HouseholdContactInfo": {
+          "AddressList": {
+            "Address": "[]"
+          },
+          "EmailList": {
+            "Email": "[]"
+          },
+          "PhoneNumberList": {
+            "PhoneNumber": "[]"
+          }
+        }
+      }
+    },
+    "SIF_Metadata": {
+      "LifeCycle": {
+        "Created": {
+          "Creators": {
+            "Creator": "[]"
+          }
+        }
+      },
+      "TimeElements": {
+        "TimeElement": {
+          "SpanGaps": {
+            "SpanGap": "[]"
+          }
+        }
+      }
+    }
+  }
+}

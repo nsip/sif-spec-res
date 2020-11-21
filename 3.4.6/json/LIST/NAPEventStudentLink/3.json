@@ -1,0 +1,14 @@
+{
+  "NAPEventStudentLink": {
+    "Adjustment": {
+      "PNPCodeList": {
+        "PNPCode": "[]"
+      }
+    },
+    "SIF_Metadata": {
+      "TimeElements": {
+        "TimeElement": "[]"
+      }
+    }
+  }
+}

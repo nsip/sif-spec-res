@@ -1,0 +1,14 @@
+{
+  "NAPStudentResponseSet": {
+    "DomainScore": {
+      "PlausibleScaledValueList": {
+        "PlausibleScaledValue": "[]"
+      }
+    },
+    "SIF_Metadata": {
+      "TimeElements": {
+        "TimeElement": "[]"
+      }
+    }
+  }
+}

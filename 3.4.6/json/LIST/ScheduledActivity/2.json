@@ -1,0 +1,28 @@
+{
+  "ScheduledActivity": {
+    "AddressList": {
+      "Address": "[]"
+    },
+    "LocalCodeList": {
+      "LocalCode": "[]"
+    },
+    "RoomList": {
+      "RoomInfoRefId": "[]"
+    },
+    "SIF_ExtendedElements": {
+      "SIF_ExtendedElement": "[]"
+    },
+    "StudentList": {
+      "StudentPersonalRefId": "[]"
+    },
+    "TeacherList": {
+      "TeacherCover": "[]"
+    },
+    "TeachingGroupList": {
+      "TeachingGroupRefId": "[]"
+    },
+    "YearLevels": {
+      "YearLevel": "[]"
+    }
+  }
+}

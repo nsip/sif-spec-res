@@ -1,0 +1,26 @@
+{
+  "LearningStandardItem": {
+    "ACStrandSubjectArea": {
+      "SubjectArea": {
+        "OtherCodeList": {
+          "OtherCode": "[]"
+        }
+      }
+    },
+    "SIF_Metadata": {
+      "EducationFilter": {
+        "LearningStandardItems": {
+          "LearningStandardItemRefId": "[]"
+        }
+      },
+      "LifeCycle": {
+        "ModificationHistory": {
+          "Modified": "[]"
+        },
+        "TimeElements": {
+          "TimeElement": "[]"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "SchoolInfo": {
+    "AddressList": {
+      "Address": {
+        "StatisticalAreas": {
+          "StatisticalArea": "[]"
+        }
+      }
+    },
+    "SIF_Metadata": {
+      "EducationFilter": {
+        "LearningStandardItems": {
+          "LearningStandardItemRefId": "[]"
+        }
+      },
+      "LifeCycle": {
+        "ModificationHistory": {
+          "Modified": "[]"
+        },
+        "TimeElements": {
+          "TimeElement": "[]"
+        }
+      }
+    }
+  }
+}

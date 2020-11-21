@@ -1,0 +1,26 @@
+{
+  "SystemRole": {
+    "SIF_Metadata": {
+      "EducationFilter": {
+        "LearningStandardItems": {
+          "LearningStandardItemRefId": "[]"
+        }
+      },
+      "LifeCycle": {
+        "ModificationHistory": {
+          "Modified": "[]"
+        },
+        "TimeElements": {
+          "TimeElement": "[]"
+        }
+      }
+    },
+    "SystemContextList": {
+      "SystemContext": {
+        "RoleList": {
+          "Role": "[]"
+        }
+      }
+    }
+  }
+}

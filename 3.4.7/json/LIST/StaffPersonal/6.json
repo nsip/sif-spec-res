@@ -1,0 +1,26 @@
+{
+  "StaffPersonal": {
+    "PersonInfo": {
+      "Demographics": {
+        "LanguageList": {
+          "Language": {
+            "OtherCodeList": {
+              "OtherCode": "[]"
+            }
+          }
+        }
+      }
+    },
+    "SIF_Metadata": {
+      "LifeCycle": {
+        "TimeElements": {
+          "TimeElement": {
+            "SpanGaps": {
+              "SpanGap": "[]"
+            }
+          }
+        }
+      }
+    }
+  }
+}

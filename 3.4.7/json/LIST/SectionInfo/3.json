@@ -1,0 +1,24 @@
+{
+  "SectionInfo": {
+    "LanguageOfInstruction": {
+      "OtherCodeList": {
+        "OtherCode": "[]"
+      }
+    },
+    "LocationOfInstruction": {
+      "OtherCodeList": {
+        "OtherCode": "[]"
+      }
+    },
+    "MediumOfInstruction": {
+      "OtherCodeList": {
+        "OtherCode": "[]"
+      }
+    },
+    "SIF_Metadata": {
+      "TimeElements": {
+        "TimeElement": "[]"
+      }
+    }
+  }
+}

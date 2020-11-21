@@ -1,0 +1,38 @@
+{
+  "StudentAttendanceCollection": {
+    "LocalCodeList": {
+      "LocalCode": {
+        "ListIndex": "(N)"
+      }
+    },
+    "StudentAttendanceCollectionReportingList": {
+      "StudentAttendanceCollectionReporting": {
+        "EntityContact": {
+          "Address": {
+            "GridLocation": {
+              "Latitude": "(N)",
+              "Longitude": "(N)"
+            }
+          },
+          "PhoneNumber": {
+            "Preference": "(N)"
+          }
+        },
+        "StatsCohortYearLevelList": {
+          "StatsCohortYearLevel": {
+            "StatsCohortList": {
+              "StatsCohort": {
+                "AttendanceDays": "(N)",
+                "AttendanceGTE90Percent": "(N)",
+                "AttendanceLess90Percent": "(N)",
+                "DaysInReferencePeriod": "(N)",
+                "PossibleSchoolDays": "(N)",
+                "PossibleSchoolDaysGT90PercentAttendance": "(N)"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

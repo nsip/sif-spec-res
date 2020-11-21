@@ -1,0 +1,14 @@
+{
+  "TimeTableCell": {
+    "LocalCodeList": {
+      "LocalCode": {
+        "ListIndex": "(N)"
+      }
+    },
+    "TeacherList": {
+      "TeacherCover": {
+        "Weighting": "(N)"
+      }
+    }
+  }
+}

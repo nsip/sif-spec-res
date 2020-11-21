@@ -1,0 +1,25 @@
+{
+  "TimeTableContainer": {
+    "SIF_Metadata": {
+      "TimeElements": {
+        "TimeElement": "[]"
+      }
+    },
+    "TeachingGroupScheduleList": {
+      "StudentList": {
+        "TeachingGroupStudent": "[]"
+      },
+      "TeacherList": {
+        "TeachingGroupTeacher": "[]"
+      },
+      "TeachingGroupPeriodList": {
+        "TeachingGroupPeriod": "[]"
+      }
+    },
+    "TimeTableSchedule": {
+      "TimeTableDayList": {
+        "TimeTableDay": "[]"
+      }
+    }
+  }
+}

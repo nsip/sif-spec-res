@@ -1,0 +1,19 @@
+{
+  "ResourceBooking": {
+    "KeepOld": "(B)",
+    "SIF_Metadata": {
+      "LifeCycle": {
+        "TimeElements": {
+          "TimeElement": {
+            "IsCurrent": "(B)"
+          }
+        }
+      },
+      "TimeElements": {
+        "TimeElement": {
+          "IsCurrent": "(B)"
+        }
+      }
+    }
+  }
+}

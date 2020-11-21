@@ -1,0 +1,16 @@
+{
+  "LibraryPatronStatus": {
+    "ElectronicIdList": {
+      "ElectronicId": "[]"
+    },
+    "MessageList": {
+      "Message": "[]"
+    },
+    "SIF_ExtendedElements": {
+      "SIF_ExtendedElement": "[]"
+    },
+    "TransactionList": {
+      "Transaction": "[]"
+    }
+  }
+}

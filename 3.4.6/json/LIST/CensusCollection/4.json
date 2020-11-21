@@ -1,0 +1,35 @@
+{
+  "CensusCollection": {
+    "CensusReportingList": {
+      "CensusReporting": {
+        "AGContextualQuestionList": {
+          "AGContextualQuestion": "[]"
+        },
+        "CensusStaffList": {
+          "CensusStaff": "[]"
+        },
+        "CensusStudentList": {
+          "CensusStudent": "[]"
+        },
+        "YearLevels": {
+          "YearLevel": "[]"
+        }
+      }
+    },
+    "SIF_Metadata": {
+      "EducationFilter": {
+        "LearningStandardItems": {
+          "LearningStandardItemRefId": "[]"
+        }
+      },
+      "LifeCycle": {
+        "ModificationHistory": {
+          "Modified": "[]"
+        },
+        "TimeElements": {
+          "TimeElement": "[]"
+        }
+      }
+    }
+  }
+}

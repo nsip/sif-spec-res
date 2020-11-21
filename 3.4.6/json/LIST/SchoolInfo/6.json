@@ -1,0 +1,26 @@
+{
+  "SchoolInfo": {
+    "SIF_Metadata": {
+      "LifeCycle": {
+        "TimeElements": {
+          "TimeElement": {
+            "SpanGaps": {
+              "SpanGap": "[]"
+            }
+          }
+        }
+      }
+    },
+    "SchoolContactList": {
+      "SchoolContact": {
+        "ContactInfo": {
+          "Address": {
+            "StatisticalAreas": {
+              "StatisticalArea": "[]"
+            }
+          }
+        }
+      }
+    }
+  }
+}

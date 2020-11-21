@@ -1,0 +1,15 @@
+{
+  "StaffAssignment": {
+    "JobFTE": "(N)",
+    "LocalCodeList": {
+      "LocalCode": {
+        "ListIndex": "(N)"
+      }
+    },
+    "StaffSubjectList": {
+      "StaffSubject": {
+        "PreferenceNumber": "(N)"
+      }
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "AddressCollection": {
+    "AddressCollectionReportingList": {
+      "AddressCollectionReporting": {
+        "AddressCollectionStudentList": {
+          "AddressCollectionStudent": {
+            "Parent1": {
+              "ParentAddress": {
+                "GridLocation": {
+                  "Latitude": "(N)",
+                  "Longitude": "(N)"
+                }
+              }
+            },
+            "Parent2": {
+              "ParentAddress": {
+                "GridLocation": {
+                  "Latitude": "(N)",
+                  "Longitude": "(N)"
+                }
+              }
+            },
+            "StudentAddress": {
+              "GridLocation": {
+                "Latitude": "(N)",
+                "Longitude": "(N)"
+              }
+            }
+          }
+        },
+        "EntityContact": {
+          "Address": {
+            "GridLocation": {
+              "Latitude": "(N)",
+              "Longitude": "(N)"
+            }
+          },
+          "PhoneNumber": {
+            "Preference": "(N)"
+          }
+        }
+      }
+    },
+    "LocalCodeList": {
+      "LocalCode": {
+        "ListIndex": "(N)"
+      }
+    }
+  }
+}

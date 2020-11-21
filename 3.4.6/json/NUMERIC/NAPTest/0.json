@@ -1,0 +1,44 @@
+{
+  "NAPTest": {
+    "LocalCodeList": {
+      "LocalCode": {
+        "ListIndex": "(N)"
+      }
+    },
+    "TestContent": {
+      "DomainBands": {
+        "Band10Lower": "(N)",
+        "Band10Upper": "(N)",
+        "Band1Lower": "(N)",
+        "Band1Upper": "(N)",
+        "Band2Lower": "(N)",
+        "Band2Upper": "(N)",
+        "Band3Lower": "(N)",
+        "Band3Upper": "(N)",
+        "Band4Lower": "(N)",
+        "Band4Upper": "(N)",
+        "Band5Lower": "(N)",
+        "Band5Upper": "(N)",
+        "Band6Lower": "(N)",
+        "Band6Upper": "(N)",
+        "Band7Lower": "(N)",
+        "Band7Upper": "(N)",
+        "Band8Lower": "(N)",
+        "Band8Upper": "(N)",
+        "Band9Lower": "(N)",
+        "Band9Upper": "(N)"
+      },
+      "DomainProficiency": {
+        "Level1Lower": "(N)",
+        "Level1Upper": "(N)",
+        "Level2Lower": "(N)",
+        "Level2Upper": "(N)",
+        "Level3Lower": "(N)",
+        "Level3Upper": "(N)",
+        "Level4Lower": "(N)",
+        "Level4Upper": "(N)"
+      },
+      "StagesCount": "(N)"
+    }
+  }
+}

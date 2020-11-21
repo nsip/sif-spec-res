@@ -1,0 +1,14 @@
+{
+  "AggregateStatisticFact": {
+    "LocalCodeList": {
+      "LocalCode": {
+        "ListIndex": {
+          "#content": "(N)"
+        }
+      }
+    },
+    "Value": {
+      "#content": "(N)"
+    }
+  }
+}

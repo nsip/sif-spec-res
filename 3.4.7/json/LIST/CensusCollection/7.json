@@ -1,0 +1,17 @@
+{
+  "CensusCollection": {
+    "CensusReportingList": {
+      "CensusReporting": {
+        "CensusStaffList": {
+          "CensusStaff": {
+            "StaffActivity": {
+              "OtherCodeList": {
+                "OtherCode": "[]"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

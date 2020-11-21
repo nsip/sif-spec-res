@@ -1,0 +1,14 @@
+{
+  "StudentDailyAttendance": {
+    "AttendanceCode": {
+      "OtherCodeList": {
+        "OtherCode": "[]"
+      }
+    },
+    "SIF_Metadata": {
+      "TimeElements": {
+        "TimeElement": "[]"
+      }
+    }
+  }
+}

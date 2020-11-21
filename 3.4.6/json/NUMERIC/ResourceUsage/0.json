@@ -1,0 +1,14 @@
+{
+  "ResourceUsage": {
+    "LocalCodeList": {
+      "LocalCode": {
+        "ListIndex": "(N)"
+      }
+    },
+    "ResourceReportLineList": {
+      "ResourceReportLine": {
+        "CurrentCost": "(N)"
+      }
+    }
+  }
+}

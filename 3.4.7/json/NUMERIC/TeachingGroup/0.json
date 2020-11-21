@@ -1,0 +1,12 @@
+{
+  "TeachingGroup": {
+    "LocalCodeList": {
+      "LocalCode": {
+        "ListIndex": "(N)"
+      }
+    },
+    "MaxClassSize": "(N)",
+    "MinClassSize": "(N)",
+    "Semester": "(N)"
+  }
+}

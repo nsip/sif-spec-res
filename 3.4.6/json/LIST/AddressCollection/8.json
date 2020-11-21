@@ -1,0 +1,26 @@
+{
+  "AddressCollection": {
+    "AddressCollectionReportingList": {
+      "AddressCollectionReporting": {
+        "AddressCollectionStudentList": {
+          "AddressCollectionStudent": {
+            "Parent1": {
+              "ParentAddress": {
+                "StatisticalAreas": {
+                  "StatisticalArea": "[]"
+                }
+              }
+            },
+            "Parent2": {
+              "ParentAddress": {
+                "StatisticalAreas": {
+                  "StatisticalArea": "[]"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

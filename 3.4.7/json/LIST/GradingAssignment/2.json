@@ -1,0 +1,22 @@
+{
+  "GradingAssignment": {
+    "LearningStandardList": {
+      "LearningStandard": "[]"
+    },
+    "LocalCodeList": {
+      "LocalCode": "[]"
+    },
+    "PrerequisiteList": {
+      "Prerequisite": "[]"
+    },
+    "SIF_ExtendedElements": {
+      "SIF_ExtendedElement": "[]"
+    },
+    "StudentPersonalRefIdList": {
+      "StudentPersonalRefId": "[]"
+    },
+    "SubAssignmentList": {
+      "GradingAssignmentRefId": "[]"
+    }
+  }
+}

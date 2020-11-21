@@ -1,0 +1,86 @@
+{
+  "NAPCodeFrame": {
+    "LocalCodeList": {
+      "LocalCode": {
+        "ListIndex": "(N)"
+      }
+    },
+    "TestContent": {
+      "DomainBands": {
+        "Band10Lower": "(N)",
+        "Band10Upper": "(N)",
+        "Band1Lower": "(N)",
+        "Band1Upper": "(N)",
+        "Band2Lower": "(N)",
+        "Band2Upper": "(N)",
+        "Band3Lower": "(N)",
+        "Band3Upper": "(N)",
+        "Band4Lower": "(N)",
+        "Band4Upper": "(N)",
+        "Band5Lower": "(N)",
+        "Band5Upper": "(N)",
+        "Band6Lower": "(N)",
+        "Band6Upper": "(N)",
+        "Band7Lower": "(N)",
+        "Band7Upper": "(N)",
+        "Band8Lower": "(N)",
+        "Band8Upper": "(N)",
+        "Band9Lower": "(N)",
+        "Band9Upper": "(N)"
+      },
+      "DomainProficiency": {
+        "Level1Lower": "(N)",
+        "Level1Upper": "(N)",
+        "Level2Lower": "(N)",
+        "Level2Upper": "(N)",
+        "Level3Lower": "(N)",
+        "Level3Upper": "(N)",
+        "Level4Lower": "(N)",
+        "Level4Upper": "(N)"
+      },
+      "StagesCount": "(N)"
+    },
+    "TestletList": {
+      "Testlet": {
+        "TestItemList": {
+          "TestItem": {
+            "SequenceNumber": "(N)",
+            "TestItemContent": {
+              "ItemDifficulty": "(N)",
+              "ItemDifficultyLogit5": "(N)",
+              "ItemDifficultyLogit5SE": "(N)",
+              "ItemDifficultyLogit62": "(N)",
+              "ItemDifficultyLogit62SE": "(N)",
+              "ItemProficiencyBand": "(N)",
+              "MaximumScore": "(N)",
+              "MultipleChoiceOptionCount": "(N)",
+              "NAPWritingRubricList": {
+                "NAPWritingRubric": {
+                  "ScoreList": {
+                    "Score": {
+                      "MaxScoreValue": "(N)",
+                      "ScoreDescriptionList": {
+                        "ScoreDescription": {
+                          "ScoreValue": "(N)"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "StimulusList": {
+                "Stimulus": {
+                  "WordCount": "(N)"
+                }
+              }
+            }
+          }
+        },
+        "TestletContent": {
+          "LocationInStage": "(N)",
+          "TestletMaximumScore": "(N)"
+        }
+      }
+    }
+  }
+}

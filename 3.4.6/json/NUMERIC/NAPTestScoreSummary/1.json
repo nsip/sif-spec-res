@@ -1,0 +1,26 @@
+{
+  "NAPTestScoreSummary": {
+    "DomainBottomNational60Percent": {
+      "#content": "(N)"
+    },
+    "DomainJurisdictionAverage": {
+      "#content": "(N)"
+    },
+    "DomainNationalAverage": {
+      "#content": "(N)"
+    },
+    "DomainSchoolAverage": {
+      "#content": "(N)"
+    },
+    "DomainTopNational60Percent": {
+      "#content": "(N)"
+    },
+    "LocalCodeList": {
+      "LocalCode": {
+        "ListIndex": {
+          "#content": "(N)"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "CensusCollection": {
+    "CensusReportingList": {
+      "CensusReporting": {
+        "EntityContact": {
+          "Address": {
+            "StatisticalAreas": {
+              "StatisticalArea": "[]"
+            }
+          }
+        }
+      }
+    },
+    "SIF_Metadata": {
+      "LifeCycle": {
+        "TimeElements": {
+          "TimeElement": {
+            "SpanGaps": {
+              "SpanGap": "[]"
+            }
+          }
+        }
+      }
+    }
+  }
+}

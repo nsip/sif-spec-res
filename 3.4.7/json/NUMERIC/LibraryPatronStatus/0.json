@@ -1,0 +1,22 @@
+{
+  "LibraryPatronStatus": {
+    "FineAmount": "(N)",
+    "NumberOfCheckouts": "(N)",
+    "NumberOfFines": "(N)",
+    "NumberOfOverdues": "(N)",
+    "NumberOfRefunds": "(N)",
+    "RefundAmount": "(N)",
+    "TransactionList": {
+      "Transaction": {
+        "FineInfoList": {
+          "FineInfo": {
+            "Amount": "(N)"
+          }
+        },
+        "ItemInfo": {
+          "Price": "(N)"
+        }
+      }
+    }
+  }
+}

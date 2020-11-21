@@ -1,0 +1,43 @@
+{
+  "Invoice": {
+    "BilledAmount": {
+      "#content": "(N)"
+    },
+    "LocalCodeList": {
+      "LocalCode": {
+        "ListIndex": {
+          "#content": "(N)"
+        }
+      }
+    },
+    "NetAmount": {
+      "#content": "(N)"
+    },
+    "PurchasingItems": {
+      "PurchasingItem": {
+        "ExpenseAccounts": {
+          "ExpenseAccount": {
+            "Amount": {
+              "#content": "(N)"
+            }
+          }
+        },
+        "TaxRate": {
+          "#content": "(N)"
+        },
+        "TotalCost": {
+          "#content": "(N)"
+        },
+        "UnitCost": {
+          "#content": "(N)"
+        }
+      }
+    },
+    "TaxAmount": {
+      "#content": "(N)"
+    },
+    "TaxRate": {
+      "#content": "(N)"
+    }
+  }
+}

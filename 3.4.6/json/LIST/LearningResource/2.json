@@ -1,0 +1,34 @@
+{
+  "LearningResource": {
+    "Approvals": {
+      "Approval": "[]"
+    },
+    "Components": {
+      "Component": "[]"
+    },
+    "Contacts": {
+      "Contact": "[]"
+    },
+    "Evaluations": {
+      "Evaluation": "[]"
+    },
+    "LearningStandards": {
+      "LearningStandardItemRefId": "[]"
+    },
+    "LocalCodeList": {
+      "LocalCode": "[]"
+    },
+    "MediaTypes": {
+      "MediaType": "[]"
+    },
+    "SIF_ExtendedElements": {
+      "SIF_ExtendedElement": "[]"
+    },
+    "SubjectAreas": {
+      "ACStrandSubjectArea": "[]"
+    },
+    "YearLevels": {
+      "YearLevel": "[]"
+    }
+  }
+}

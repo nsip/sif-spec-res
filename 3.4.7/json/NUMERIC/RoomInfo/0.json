@@ -1,0 +1,14 @@
+{
+  "RoomInfo": {
+    "Capacity": "(N)",
+    "LocalCodeList": {
+      "LocalCode": {
+        "ListIndex": "(N)"
+      }
+    },
+    "PhoneNumber": {
+      "Preference": "(N)"
+    },
+    "Size": "(N)"
+  }
+}

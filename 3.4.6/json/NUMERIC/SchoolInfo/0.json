@@ -1,0 +1,47 @@
+{
+  "SchoolInfo": {
+    "ARIA": "(N)",
+    "AddressList": {
+      "Address": {
+        "GridLocation": {
+          "Latitude": "(N)",
+          "Longitude": "(N)"
+        }
+      }
+    },
+    "LocalCodeList": {
+      "LocalCode": {
+        "ListIndex": "(N)"
+      }
+    },
+    "PhoneNumberList": {
+      "PhoneNumber": {
+        "Preference": "(N)"
+      }
+    },
+    "PrincipalInfo": {
+      "PhoneNumberList": {
+        "PhoneNumber": {
+          "Preference": "(N)"
+        }
+      }
+    },
+    "SchoolContactList": {
+      "SchoolContact": {
+        "ContactInfo": {
+          "Address": {
+            "GridLocation": {
+              "Latitude": "(N)",
+              "Longitude": "(N)"
+            }
+          },
+          "PhoneNumberList": {
+            "PhoneNumber": {
+              "Preference": "(N)"
+            }
+          }
+        }
+      }
+    }
+  }
+}

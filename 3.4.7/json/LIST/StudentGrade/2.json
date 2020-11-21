@@ -1,0 +1,19 @@
+{
+  "StudentGrade": {
+    "GradingScoreList": {
+      "GradingAssignmentScore": "[]"
+    },
+    "LearningStandardList": {
+      "LearningStandard": "[]"
+    },
+    "LocalCodeList": {
+      "LocalCode": "[]"
+    },
+    "Markers": {
+      "Marker": "[]"
+    },
+    "SIF_ExtendedElements": {
+      "SIF_ExtendedElement": "[]"
+    }
+  }
+}

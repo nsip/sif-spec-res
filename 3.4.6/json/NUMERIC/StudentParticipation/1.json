@@ -1,0 +1,14 @@
+{
+  "StudentParticipation": {
+    "LocalCodeList": {
+      "LocalCode": {
+        "ListIndex": {
+          "#content": "(N)"
+        }
+      }
+    },
+    "StudentSpecialEducationFTE": {
+      "#content": "(N)"
+    }
+  }
+}

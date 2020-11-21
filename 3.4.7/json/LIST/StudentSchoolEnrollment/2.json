@@ -1,0 +1,19 @@
+{
+  "StudentSchoolEnrollment": {
+    "LocalCodeList": {
+      "LocalCode": "[]"
+    },
+    "PublishingPermissionList": {
+      "PublishingPermission": "[]"
+    },
+    "SIF_ExtendedElements": {
+      "SIF_ExtendedElement": "[]"
+    },
+    "StudentGroupList": {
+      "StudentGroup": "[]"
+    },
+    "StudentSubjectChoiceList": {
+      "StudentSubjectChoice": "[]"
+    }
+  }
+}
