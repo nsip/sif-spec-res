@@ -13,3 +13,9 @@
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
+
+3.4.6/json/
+3.4.6/toml/
+
+3.4.7/json/
+3.4.7/toml/
