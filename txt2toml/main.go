@@ -35,11 +35,11 @@ var (
 func Println(num bool, slc ...string) {
 	if num {
 		for i, v := range slc {
-			fmt.Printf("%d: %v\n", i, v)
+			fPf("%d: %v\n", i, v)
 		}
 	} else {
 		for _, v := range slc {
-			fmt.Println(v)
+			fPln(v)
 		}
 	}
 }
@@ -73,9 +73,9 @@ func MapOfGrp(objs []string, sep string, xxxPathGrp ...string) map[string][]stri
 // PrintGrp4Cfg :
 func PrintGrp4Cfg(m map[string][]string, attr string) (toml string) {
 	for obj, grp := range m {
-		content := fmt.Sprintf("[%s]\n  %s = [", obj, attr)
+		content := fSf("[%s]\n  %s = [", obj, attr)
 		for _, path := range grp {
-			content += fmt.Sprintf("\"%s\", ", path)
+			content += fSf("\"%s\", ", path)
 		}
 		toml += content[:len(content)-2] + "]" + "\n\n"
 	}
@@ -122,10 +122,10 @@ func GenTomlAndGoSrc(specPath, outDir string) {
 	}
 
 	// Println(true, objGrp...)
-	// fmt.Println("-----------------------------")
+	// fPln("-----------------------------")
 
 	// Println(false, listPathGrp...)
-	// fmt.Println("-----------------------------")
+	// fPln("-----------------------------")
 
 	mListAttr := MapOfGrp(ObjGrp(SEP, listPathGrp...), SEP, listPathGrp...)
 	mNumAttr := MapOfGrp(ObjGrp(SEP, numPathGrp...), SEP, numPathGrp...)
@@ -157,6 +157,12 @@ func main() {
 	strugen.GenStruct(toml347+"List2JSON.toml", "CfgL2J347", pkgName, cfgSrc)
 	strugen.GenStruct(toml347+"Bool2JSON.toml", "CfgB2J347", pkgName, cfgSrc)
 	strugen.GenStruct(toml347+"Num2JSON.toml", "CfgN2J347", pkgName, cfgSrc)
+
+	GenTomlAndGoSrc("./3.4.8.txt", "./3.4.8/")
+	toml348 := "./3.4.8/toml/"
+	strugen.GenStruct(toml348+"List2JSON.toml", "CfgL2J348", pkgName, cfgSrc)
+	strugen.GenStruct(toml348+"Bool2JSON.toml", "CfgB2J348", pkgName, cfgSrc)
+	strugen.GenStruct(toml348+"Num2JSON.toml", "CfgN2J348", pkgName, cfgSrc)
 
 	strugen.GenNewCfg(cfgSrc)
 }
