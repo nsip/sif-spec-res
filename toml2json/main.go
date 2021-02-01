@@ -13,6 +13,7 @@ import (
 	"github.com/cdutwhu/gotil/io"
 	"github.com/cdutwhu/gotil/str"
 	jt "github.com/cdutwhu/json-tool"
+	sifspecres "github.com/nsip/sif-spec-res"
 	"github.com/peterbourgon/mergemap"
 )
 
@@ -213,20 +214,18 @@ func YieldJSON4OneCfg(obj, sep, outDir, jsonVal string, levelized, extContent bo
 
 // YieldJSONBySIFList :
 func YieldJSONBySIFList(cfgPath, ver string) {
-	JSONCfgOutDir := ""
+	JSONCfgOutDir := "./" + ver + "/json/LIST/"
 	switch ver {
 	case "3.4.6":
 		InitCfgBuf(*NewCfg("CfgL2J346", nil, cfgPath).(*CfgL2J346), "/") // Init Global Maps
-		JSONCfgOutDir = "./3.4.6/json/LIST/"
 	case "3.4.7":
 		InitCfgBuf(*NewCfg("CfgL2J347", nil, cfgPath).(*CfgL2J347), "/")
-		JSONCfgOutDir = "./3.4.7/json/LIST/"
-	case "3.4.8":
-		InitCfgBuf(*NewCfg("CfgL2J348", nil, cfgPath).(*CfgL2J348), "/")
-		JSONCfgOutDir = "./3.4.8/json/LIST/"
+	case "3.4.8.draft":
+		InitCfgBuf(*NewCfg("CfgL2J348draft", nil, cfgPath).(*CfgL2J348draft), "/")
 	default:
 		panic("unsupported version: " + ver)
 	}
+
 	for _, obj := range GetLoadedObjects() {
 		YieldJSON4OneCfg(obj, "/", JSONCfgOutDir, "[]", true, false)
 	}
@@ -234,17 +233,14 @@ func YieldJSONBySIFList(cfgPath, ver string) {
 
 // YieldJSONBySIFNum :
 func YieldJSONBySIFNum(cfgPath, ver string) {
-	JSONCfgOutDir := ""
+	JSONCfgOutDir := "./" + ver + "/json/NUMERIC/"
 	switch ver {
 	case "3.4.6":
 		InitCfgBuf(*NewCfg("CfgN2J346", nil, cfgPath).(*CfgN2J346), "/") // Init Global Maps
-		JSONCfgOutDir = "./3.4.6/json/NUMERIC/"
 	case "3.4.7":
 		InitCfgBuf(*NewCfg("CfgN2J347", nil, cfgPath).(*CfgN2J347), "/")
-		JSONCfgOutDir = "./3.4.7/json/NUMERIC/"
-	case "3.4.8":
-		InitCfgBuf(*NewCfg("CfgN2J348", nil, cfgPath).(*CfgN2J348), "/")
-		JSONCfgOutDir = "./3.4.8/json/NUMERIC/"
+	case "3.4.8.draft":
+		InitCfgBuf(*NewCfg("CfgN2J348draft", nil, cfgPath).(*CfgN2J348draft), "/")
 	default:
 		panic("unsupported version: " + ver)
 	}
@@ -255,17 +251,14 @@ func YieldJSONBySIFNum(cfgPath, ver string) {
 
 // YieldJSONBySIFBool :
 func YieldJSONBySIFBool(cfgPath, ver string) {
-	JSONCfgOutDir := ""
+	JSONCfgOutDir := "./" + ver + "/json/BOOLEAN/"
 	switch ver {
 	case "3.4.6":
 		InitCfgBuf(*NewCfg("CfgB2J346", nil, cfgPath).(*CfgB2J346), "/") // Init Global Maps
-		JSONCfgOutDir = "./3.4.6/json/BOOLEAN/"
 	case "3.4.7":
 		InitCfgBuf(*NewCfg("CfgB2J347", nil, cfgPath).(*CfgB2J347), "/")
-		JSONCfgOutDir = "./3.4.7/json/BOOLEAN/"
-	case "3.4.8":
-		InitCfgBuf(*NewCfg("CfgB2J348", nil, cfgPath).(*CfgB2J348), "/")
-		JSONCfgOutDir = "./3.4.8/json/BOOLEAN/"
+	case "3.4.8.draft":
+		InitCfgBuf(*NewCfg("CfgB2J348draft", nil, cfgPath).(*CfgB2J348draft), "/")
 	default:
 		panic("unsupported version: " + ver)
 	}
@@ -282,44 +275,18 @@ func YieldJSONBySIF(listCfg, numCfg, boolCfg, ver string) {
 }
 
 func main() {
-
-	YieldJSONBySIF(
-		"./3.4.6/toml/List2JSON.toml",
-		"./3.4.6/toml/Num2JSON.toml",
-		"./3.4.6/toml/Bool2JSON.toml",
-		"3.4.6",
-	)
-	pkg := "sif346"
-	printFileBytes(pkg, "TXT", "./3.4.6/txt.go", false, "./3.4.6.txt")
-	createDirBytes(pkg, "JSON_BOOL", "./3.4.6/json/BOOLEAN/", "./3.4.6/json_bool.go", false, "346", "json", "BOOLEAN")
-	createDirBytes(pkg, "JSON_LIST", "./3.4.6/json/LIST/", "./3.4.6/json_list.go", false, "346", "json", "LIST")
-	createDirBytes(pkg, "JSON_NUM", "./3.4.6/json/NUMERIC/", "./3.4.6/json_num.go", false, "346", "json", "NUMERIC")
-
-	// ----------------------------------- //
-
-	YieldJSONBySIF(
-		"./3.4.7/toml/List2JSON.toml",
-		"./3.4.7/toml/Num2JSON.toml",
-		"./3.4.7/toml/Bool2JSON.toml",
-		"3.4.7",
-	)
-	pkg = "sif347"
-	printFileBytes(pkg, "TXT", "./3.4.7/txt.go", false, "./3.4.7.txt")
-	createDirBytes(pkg, "JSON_BOOL", "./3.4.7/json/BOOLEAN/", "./3.4.7/json_bool.go", false, "347", "json", "BOOLEAN")
-	createDirBytes(pkg, "JSON_LIST", "./3.4.7/json/LIST/", "./3.4.7/json_list.go", false, "347", "json", "LIST")
-	createDirBytes(pkg, "JSON_NUM", "./3.4.7/json/NUMERIC/", "./3.4.7/json_num.go", false, "347", "json", "NUMERIC")
-
-	// ----------------------------------- //
-
-	YieldJSONBySIF(
-		"./3.4.8/toml/List2JSON.toml",
-		"./3.4.8/toml/Num2JSON.toml",
-		"./3.4.8/toml/Bool2JSON.toml",
-		"3.4.8",
-	)
-	pkg = "sif348"
-	printFileBytes(pkg, "TXT", "./3.4.8/txt.go", false, "./3.4.8.txt")
-	createDirBytes(pkg, "JSON_BOOL", "./3.4.8/json/BOOLEAN/", "./3.4.8/json_bool.go", false, "348", "json", "BOOLEAN")
-	createDirBytes(pkg, "JSON_LIST", "./3.4.8/json/LIST/", "./3.4.8/json_list.go", false, "348", "json", "LIST")
-	createDirBytes(pkg, "JSON_NUM", "./3.4.8/json/NUMERIC/", "./3.4.8/json_num.go", false, "348", "json", "NUMERIC")
+	for _, ver := range sifspecres.GetAllVer("", "") {
+		v := sReplaceAll(ver, ".", "")
+		YieldJSONBySIF(
+			"./"+ver+"/toml/List2JSON.toml",
+			"./"+ver+"/toml/Num2JSON.toml",
+			"./"+ver+"/toml/Bool2JSON.toml",
+			ver,
+		)
+		pkg := "sif" + v
+		printFileBytes(pkg, "TXT", "./"+ver+"/txt.go", false, "./"+ver+".txt")
+		createDirBytes(pkg, "JSON_BOOL", "./"+ver+"/json/BOOLEAN/", "./"+ver+"/json_bool.go", false, v, "json", "BOOLEAN")
+		createDirBytes(pkg, "JSON_LIST", "./"+ver+"/json/LIST/", "./"+ver+"/json_list.go", false, v, "json", "LIST")
+		createDirBytes(pkg, "JSON_NUM", "./"+ver+"/json/NUMERIC/", "./"+ver+"/json_num.go", false, v, "json", "NUMERIC")
+	}
 }

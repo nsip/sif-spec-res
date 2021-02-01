@@ -11,6 +11,7 @@ import (
 	"github.com/cdutwhu/gotil/io"
 	"github.com/cdutwhu/gotil/rflx"
 	"github.com/cdutwhu/gotil/str"
+	sifspecres "github.com/nsip/sif-spec-res"
 )
 
 var (
@@ -20,8 +21,11 @@ var (
 	sHasPrefix     = strings.HasPrefix
 	sSplit         = strings.Split
 	sReplace       = strings.Replace
+	sReplaceAll    = strings.ReplaceAll
 	sCount         = strings.Count
 	sTrim          = strings.Trim
+	sTrimPrefix    = strings.TrimPrefix
+	sTrimSuffix    = strings.TrimSuffix
 	mapKeys        = rflx.MapKeys
 	rmHeadToFirst  = str.RmHeadToFirst
 	rmHeadToLast   = str.RmHeadToLast
@@ -146,23 +150,18 @@ func main() {
 	cfgSrc, pkgName := "./toml2json/config.go", "main"
 	os.Remove(cfgSrc)
 
-	GenTomlAndGoSrc("./3.4.6.txt", "./3.4.6/")
-	toml346 := "./3.4.6/toml/"
-	strugen.GenStruct(toml346+"List2JSON.toml", "CfgL2J346", pkgName, cfgSrc)
-	strugen.GenStruct(toml346+"Bool2JSON.toml", "CfgB2J346", pkgName, cfgSrc)
-	strugen.GenStruct(toml346+"Num2JSON.toml", "CfgN2J346", pkgName, cfgSrc)
-
-	GenTomlAndGoSrc("./3.4.7.txt", "./3.4.7/")
-	toml347 := "./3.4.7/toml/"
-	strugen.GenStruct(toml347+"List2JSON.toml", "CfgL2J347", pkgName, cfgSrc)
-	strugen.GenStruct(toml347+"Bool2JSON.toml", "CfgB2J347", pkgName, cfgSrc)
-	strugen.GenStruct(toml347+"Num2JSON.toml", "CfgN2J347", pkgName, cfgSrc)
-
-	GenTomlAndGoSrc("./3.4.8.txt", "./3.4.8/")
-	toml348 := "./3.4.8/toml/"
-	strugen.GenStruct(toml348+"List2JSON.toml", "CfgL2J348", pkgName, cfgSrc)
-	strugen.GenStruct(toml348+"Bool2JSON.toml", "CfgB2J348", pkgName, cfgSrc)
-	strugen.GenStruct(toml348+"Num2JSON.toml", "CfgN2J348", pkgName, cfgSrc)
+	for _, spec := range sifspecres.GetAllVer("./", ".txt") {
+		ver := sTrimPrefix(spec, "./")
+		ver = sTrimSuffix(ver, ".txt")
+		outdir := "./" + ver + "/"
+		GenTomlAndGoSrc(spec, outdir)
+		tomlPath := outdir + "toml/"
+		v := sReplaceAll(ver, ".", "")
+		CfgL2J, CfgB2J, CfgN2J := "CfgL2J"+v, "CfgB2J"+v, "CfgN2J"+v
+		strugen.GenStruct(tomlPath+"List2JSON.toml", CfgL2J, pkgName, cfgSrc)
+		strugen.GenStruct(tomlPath+"Bool2JSON.toml", CfgB2J, pkgName, cfgSrc)
+		strugen.GenStruct(tomlPath+"Num2JSON.toml", CfgN2J, pkgName, cfgSrc)
+	}
 
 	strugen.GenNewCfg(cfgSrc)
 }
