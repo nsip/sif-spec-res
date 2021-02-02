@@ -216,8 +216,16 @@ func YieldJSON4OneCfg(obj, sep, outDir, jsonVal string, levelized, extContent bo
 func YieldJSONBySIFList(cfgPath, ver string) {
 	JSONCfgOutDir := "./" + ver + "/json/LIST/"
 	switch ver {
+	case "3.4.2":
+		InitCfgBuf(*NewCfg("CfgL2J342", nil, cfgPath).(*CfgL2J342), "/") // Init Global Maps
+	case "3.4.3":
+		InitCfgBuf(*NewCfg("CfgL2J343", nil, cfgPath).(*CfgL2J343), "/")
+	case "3.4.4":
+		InitCfgBuf(*NewCfg("CfgL2J344", nil, cfgPath).(*CfgL2J344), "/")
+	case "3.4.5":
+		InitCfgBuf(*NewCfg("CfgL2J345", nil, cfgPath).(*CfgL2J345), "/")
 	case "3.4.6":
-		InitCfgBuf(*NewCfg("CfgL2J346", nil, cfgPath).(*CfgL2J346), "/") // Init Global Maps
+		InitCfgBuf(*NewCfg("CfgL2J346", nil, cfgPath).(*CfgL2J346), "/")
 	case "3.4.7":
 		InitCfgBuf(*NewCfg("CfgL2J347", nil, cfgPath).(*CfgL2J347), "/")
 	case "3.4.8.draft":
@@ -235,8 +243,16 @@ func YieldJSONBySIFList(cfgPath, ver string) {
 func YieldJSONBySIFNum(cfgPath, ver string) {
 	JSONCfgOutDir := "./" + ver + "/json/NUMERIC/"
 	switch ver {
+	case "3.4.2":
+		InitCfgBuf(*NewCfg("CfgN2J342", nil, cfgPath).(*CfgN2J342), "/") // Init Global Maps
+	case "3.4.3":
+		InitCfgBuf(*NewCfg("CfgN2J343", nil, cfgPath).(*CfgN2J343), "/")
+	case "3.4.4":
+		InitCfgBuf(*NewCfg("CfgN2J344", nil, cfgPath).(*CfgN2J344), "/")
+	case "3.4.5":
+		InitCfgBuf(*NewCfg("CfgN2J345", nil, cfgPath).(*CfgN2J345), "/")
 	case "3.4.6":
-		InitCfgBuf(*NewCfg("CfgN2J346", nil, cfgPath).(*CfgN2J346), "/") // Init Global Maps
+		InitCfgBuf(*NewCfg("CfgN2J346", nil, cfgPath).(*CfgN2J346), "/")
 	case "3.4.7":
 		InitCfgBuf(*NewCfg("CfgN2J347", nil, cfgPath).(*CfgN2J347), "/")
 	case "3.4.8.draft":
@@ -253,8 +269,16 @@ func YieldJSONBySIFNum(cfgPath, ver string) {
 func YieldJSONBySIFBool(cfgPath, ver string) {
 	JSONCfgOutDir := "./" + ver + "/json/BOOLEAN/"
 	switch ver {
+	case "3.4.2":
+		InitCfgBuf(*NewCfg("CfgB2J342", nil, cfgPath).(*CfgB2J342), "/") // Init Global Maps
+	case "3.4.3":
+		InitCfgBuf(*NewCfg("CfgB2J343", nil, cfgPath).(*CfgB2J343), "/")
+	case "3.4.4":
+		InitCfgBuf(*NewCfg("CfgB2J344", nil, cfgPath).(*CfgB2J344), "/")
+	case "3.4.5":
+		InitCfgBuf(*NewCfg("CfgB2J345", nil, cfgPath).(*CfgB2J345), "/")
 	case "3.4.6":
-		InitCfgBuf(*NewCfg("CfgB2J346", nil, cfgPath).(*CfgB2J346), "/") // Init Global Maps
+		InitCfgBuf(*NewCfg("CfgB2J346", nil, cfgPath).(*CfgB2J346), "/")
 	case "3.4.7":
 		InitCfgBuf(*NewCfg("CfgB2J347", nil, cfgPath).(*CfgB2J347), "/")
 	case "3.4.8.draft":
