@@ -1,11 +1,13 @@
 # sif-spec-res
+
 supporting sif-converter
 
-### supported version:
+## supported version
+
 * 3.4.2
 * 3.4.3
 * 3.4.4
 * 3.4.5
 * 3.4.6
 * 3.4.7
-* 3.4.8.draft
+* 3.4.8

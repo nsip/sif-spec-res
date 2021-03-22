@@ -18,26 +18,17 @@ import (
 )
 
 var (
-	fPln           = fmt.Println
 	fPf            = fmt.Printf
 	fSp            = fmt.Sprint
 	fSf            = fmt.Sprintf
-	sHasPrefix     = strings.HasPrefix
-	sHasSuffix     = strings.HasSuffix
-	sTrim          = strings.Trim
 	sCount         = strings.Count
-	sContains      = strings.Contains
 	sReplaceAll    = strings.ReplaceAll
 	sSplit         = strings.Split
-	sNewReader     = strings.NewReader
-	sJoin          = strings.Join
 	splitRev       = str.SplitRev
 	mustWriteFile  = io.MustWriteFile
 	failOnErr      = fn.FailOnErr
-	failOnErrWhen  = fn.FailOnErrWhen
 	createDirBytes = embres.CreateDirBytes
 	printFileBytes = embres.PrintFileBytes
-	fmtJSON        = jt.Fmt
 )
 
 var (
@@ -186,7 +177,7 @@ func YieldJSON4OneCfg(obj, sep, outDir, jsonVal string, levelized, extContent bo
 		for lvl := 1; lvl < 100; lvl++ {
 			if paths, valid := GetLvlFullPaths(obj, sep, lvl); valid {
 				mm := MakeMap(paths, sep, jsonVal)
-				if mm == nil || len(mm) == 0 {
+				if len(mm) == 0 {
 					continue
 				}
 				jsonstr := MakeJSON(mm)
@@ -228,8 +219,8 @@ func YieldJSONBySIFList(cfgPath, ver string) {
 		InitCfgBuf(*NewCfg("CfgL2J346", nil, cfgPath).(*CfgL2J346), "/")
 	case "3.4.7":
 		InitCfgBuf(*NewCfg("CfgL2J347", nil, cfgPath).(*CfgL2J347), "/")
-	case "3.4.8.draft":
-		InitCfgBuf(*NewCfg("CfgL2J348draft", nil, cfgPath).(*CfgL2J348draft), "/")
+	case "3.4.8":
+		InitCfgBuf(*NewCfg("CfgL2J348", nil, cfgPath).(*CfgL2J348), "/")
 	default:
 		panic("unsupported version: " + ver)
 	}
@@ -255,8 +246,8 @@ func YieldJSONBySIFNum(cfgPath, ver string) {
 		InitCfgBuf(*NewCfg("CfgN2J346", nil, cfgPath).(*CfgN2J346), "/")
 	case "3.4.7":
 		InitCfgBuf(*NewCfg("CfgN2J347", nil, cfgPath).(*CfgN2J347), "/")
-	case "3.4.8.draft":
-		InitCfgBuf(*NewCfg("CfgN2J348draft", nil, cfgPath).(*CfgN2J348draft), "/")
+	case "3.4.8":
+		InitCfgBuf(*NewCfg("CfgN2J348", nil, cfgPath).(*CfgN2J348), "/")
 	default:
 		panic("unsupported version: " + ver)
 	}
@@ -281,8 +272,8 @@ func YieldJSONBySIFBool(cfgPath, ver string) {
 		InitCfgBuf(*NewCfg("CfgB2J346", nil, cfgPath).(*CfgB2J346), "/")
 	case "3.4.7":
 		InitCfgBuf(*NewCfg("CfgB2J347", nil, cfgPath).(*CfgB2J347), "/")
-	case "3.4.8.draft":
-		InitCfgBuf(*NewCfg("CfgB2J348draft", nil, cfgPath).(*CfgB2J348draft), "/")
+	case "3.4.8":
+		InitCfgBuf(*NewCfg("CfgB2J348", nil, cfgPath).(*CfgB2J348), "/")
 	default:
 		panic("unsupported version: " + ver)
 	}
