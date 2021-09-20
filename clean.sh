@@ -2,12 +2,12 @@
 
 set -e
 
-rm -rf ./3.4.2/ 
-rm -rf ./3.4.3/ 
-rm -rf ./3.4.4/ 
-rm -rf ./3.4.5/
-rm -rf ./3.4.6/ 
-rm -rf ./3.4.7/ 
-rm -rf ./3.4.8/
+rm -rf ./3.4.2/json/ ./3.4.2/toml/
+rm -rf ./3.4.3/json/ ./3.4.3/toml/
+rm -rf ./3.4.4/json/ ./3.4.4/toml/
+rm -rf ./3.4.5/json/ ./3.4.5/toml/
+rm -rf ./3.4.6/json/ ./3.4.6/toml/
+rm -rf ./3.4.7/json/ ./3.4.7/toml/
+rm -rf ./3.4.8/json/ ./3.4.8/toml/
 
 # rm ./toml2json/config.go  ---  keep it to avoid 'not found' error

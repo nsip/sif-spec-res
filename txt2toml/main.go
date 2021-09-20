@@ -6,33 +6,33 @@ import (
 	"os"
 	"strings"
 
-	"github.com/cdutwhu/debog/fn"
 	"github.com/cdutwhu/gonfig/strugen"
-	"github.com/cdutwhu/gotil/io"
-	"github.com/cdutwhu/gotil/rflx"
-	"github.com/cdutwhu/gotil/str"
+	"github.com/digisan/gotk/io"
+	"github.com/digisan/gotk/slice/tsb"
+	"github.com/digisan/logkit"
 	sifspecres "github.com/nsip/sif-spec-res"
 )
 
 var (
-	fPln           = fmt.Println
-	fPf            = fmt.Printf
-	fSf            = fmt.Sprintf
-	sHasPrefix     = strings.HasPrefix
-	sSplit         = strings.Split
-	sReplace       = strings.Replace
-	sReplaceAll    = strings.ReplaceAll
-	sCount         = strings.Count
-	sTrim          = strings.Trim
-	sTrimPrefix    = strings.TrimPrefix
-	sTrimSuffix    = strings.TrimSuffix
-	mapKeys        = rflx.MapKeys
-	rmHeadToFirst  = str.RmHeadToFirst
-	rmHeadToLast   = str.RmHeadToLast
-	rmTailFromLast = str.RmTailFromLast
-	mustWriteFile  = io.MustWriteFile
-	failOnErr      = fn.FailOnErr
-	failOnErrWhen  = fn.FailOnErrWhen
+	fPln          = fmt.Println
+	fPf           = fmt.Printf
+	fSf           = fmt.Sprintf
+	sHasPrefix    = strings.HasPrefix
+	sSplit        = strings.Split
+	sReplaceAll   = strings.ReplaceAll
+	sTrim         = strings.Trim
+	sTrimPrefix   = strings.TrimPrefix
+	sTrimSuffix   = strings.TrimSuffix
+	sJoin         = strings.Join
+	mustWriteFile = io.MustWriteFile
+	failOnErr     = logkit.FailOnErr
+
+	rmHeadToFirst = func(s, mark string) string {
+		if segs := sSplit(s, mark); len(segs) > 1 {
+			return sJoin(segs[1:], mark)
+		}
+		return s
+	}
 )
 
 // Println :
@@ -57,7 +57,8 @@ func ObjGrp(sep string, listGrp ...string) []string {
 			m[obj] = true
 		}
 	}
-	return mapKeys(m).([]string)
+	keys, _ := tsb.Map2KVs(m, nil, nil)
+	return keys
 }
 
 // MapOfGrp :

@@ -8,11 +8,10 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/cdutwhu/debog/fn"
-	"github.com/cdutwhu/gotil/embres"
-	"github.com/cdutwhu/gotil/io"
-	"github.com/cdutwhu/gotil/str"
-	jt "github.com/cdutwhu/json-tool"
+	"github.com/digisan/embres"
+	"github.com/digisan/gotk/io"
+	jt "github.com/digisan/json-tool"
+	"github.com/digisan/logkit"
 	sifspecres "github.com/nsip/sif-spec-res"
 	"github.com/peterbourgon/mergemap"
 )
@@ -24,11 +23,18 @@ var (
 	sCount         = strings.Count
 	sReplaceAll    = strings.ReplaceAll
 	sSplit         = strings.Split
-	splitRev       = str.SplitRev
 	mustWriteFile  = io.MustWriteFile
-	failOnErr      = fn.FailOnErr
-	createDirBytes = embres.CreateDirBytes
+	failOnErr      = logkit.FailOnErr
+	createDirBytes = embres.GenerateDirBytes
 	printFileBytes = embres.PrintFileBytes
+
+	splitRev = func(s string, sep string) []string {
+		a := sSplit(s, sep)
+		for i, j := 0, len(a)-1; i < j; i, j = i+1, j-1 {
+			a[i], a[j] = a[j], a[i]
+		}
+		return a
+	}
 )
 
 var (
@@ -181,7 +187,7 @@ func YieldJSON4OneCfg(obj, sep, outDir, jsonVal string, levelized, extContent bo
 					continue
 				}
 				jsonstr := MakeJSON(mm)
-				jsonfmt := jt.Fmt(jsonstr, "  ")
+				jsonfmt := jt.Fmt([]byte(jsonstr), "  ")
 				mustWriteFile(fSf("%s%d.json", path, lvl), []byte(jsonfmt))
 			} else {
 				break
@@ -191,13 +197,13 @@ func YieldJSON4OneCfg(obj, sep, outDir, jsonVal string, levelized, extContent bo
 		paths := GetAllFullPaths(obj, sep)
 		mm := MakeMap(paths, sep, jsonVal)
 		jsonstr := MakeJSON(mm)
-		jsonfmt := jt.Fmt(jsonstr, "  ")
+		jsonfmt := jt.Fmt([]byte(jsonstr), "  ")
 		mustWriteFile(fSf("%s0.json", path), []byte(jsonfmt))
 
 		if extContent {
 			// extend jsonstr, such as xml->json '#content', "30" => { "#content": "30" }
 			jsonext := sReplaceAll(jsonstr, fSf(`"%s"`, jsonVal), fSf(`{"#content": "%s"}`, jsonVal))
-			jsonextfmt := jt.Fmt(jsonext, "  ")
+			jsonextfmt := jt.Fmt([]byte(jsonext), "  ")
 			mustWriteFile(fSf("%s1.json", path), []byte(jsonextfmt))
 		}
 	}
