@@ -1,4 +1,4 @@
-package sifspecres
+package tool
 
 // versions :
 var versions = []string{

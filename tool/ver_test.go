@@ -1,4 +1,4 @@
-package sifspecres
+package tool
 
 import (
 	"fmt"

@@ -12,7 +12,7 @@ import (
 	"github.com/digisan/gotk/io"
 	jt "github.com/digisan/json-tool"
 	"github.com/digisan/logkit"
-	sifspecres "github.com/nsip/sif-spec-res"
+	"github.com/nsip/sif-spec-res/tool"
 	"github.com/peterbourgon/mergemap"
 )
 
@@ -288,20 +288,47 @@ func YieldJSONBySIFBool(cfgPath, ver string) {
 	}
 }
 
+func YieldJSONBySIFAttr(cfgPath, ver string) {
+	JSONCfgOutDir := "./" + ver + "/json/ATTRIBUTE/"
+	switch ver {
+	case "3.4.2":
+		InitCfgBuf(*NewCfg("CfgA2J342", nil, cfgPath).(*CfgA2J342), "/") // Init Global Maps
+	case "3.4.3":
+		InitCfgBuf(*NewCfg("CfgA2J343", nil, cfgPath).(*CfgA2J343), "/")
+	case "3.4.4":
+		InitCfgBuf(*NewCfg("CfgA2J344", nil, cfgPath).(*CfgA2J344), "/")
+	case "3.4.5":
+		InitCfgBuf(*NewCfg("CfgA2J345", nil, cfgPath).(*CfgA2J345), "/")
+	case "3.4.6":
+		InitCfgBuf(*NewCfg("CfgA2J346", nil, cfgPath).(*CfgA2J346), "/")
+	case "3.4.7":
+		InitCfgBuf(*NewCfg("CfgA2J347", nil, cfgPath).(*CfgA2J347), "/")
+	case "3.4.8":
+		InitCfgBuf(*NewCfg("CfgA2J348", nil, cfgPath).(*CfgA2J348), "/")
+	default:
+		panic("unsupported version: " + ver)
+	}
+	for _, obj := range GetLoadedObjects() {
+		YieldJSON4OneCfg(obj, "/", JSONCfgOutDir, "(A)", false, true)
+	}
+}
+
 // YieldJSONBySIF :
-func YieldJSONBySIF(listCfg, numCfg, boolCfg, ver string) {
+func YieldJSONBySIF(listCfg, numCfg, boolCfg, attrCfg, ver string) {
 	YieldJSONBySIFList(listCfg, ver)
 	YieldJSONBySIFNum(numCfg, ver)
 	YieldJSONBySIFBool(boolCfg, ver)
+	YieldJSONBySIFAttr(attrCfg, ver)
 }
 
 func main() {
-	for _, ver := range sifspecres.GetAllVer("", "") {
+	for _, ver := range tool.GetAllVer("", "") {
 		v := sReplaceAll(ver, ".", "")
 		YieldJSONBySIF(
 			"./"+ver+"/toml/List2JSON.toml",
 			"./"+ver+"/toml/Num2JSON.toml",
 			"./"+ver+"/toml/Bool2JSON.toml",
+			"./"+ver+"/toml/Attr2JSON.toml",
 			ver,
 		)
 		pkg := "sif" + v
@@ -309,5 +336,6 @@ func main() {
 		createDirBytes(pkg, "JSON_BOOL", "./"+ver+"/json/BOOLEAN/", "./"+ver+"/json_bool.go", false, v, "json", "BOOLEAN")
 		createDirBytes(pkg, "JSON_LIST", "./"+ver+"/json/LIST/", "./"+ver+"/json_list.go", false, v, "json", "LIST")
 		createDirBytes(pkg, "JSON_NUM", "./"+ver+"/json/NUMERIC/", "./"+ver+"/json_num.go", false, v, "json", "NUMERIC")
+		createDirBytes(pkg, "JSON_ATTR", "./"+ver+"/json/ATTRIBUTE/", "./"+ver+"/json_attr.go", false, v, "json", "ATTRIBUTE")
 	}
 }
