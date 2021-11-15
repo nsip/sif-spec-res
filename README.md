@@ -1,6 +1,9 @@
 # sif-spec-res
 
 supporting sif-converter
+supporting PESC JSON to GOESSNER JSON
+
+use 'build.sh' to generate resource folders
 
 ## supported version
 
