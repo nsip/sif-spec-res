@@ -13,4 +13,3 @@ rm -rf ./3.4.8/json/ ./3.4.8/toml/
 # rm -rf ./toml2json/config.go  # ---  keep it to avoid 'not found' error
 
 rm -f ./sif-spec-res
-rm -r ./txt2toml/3.4.2.txt

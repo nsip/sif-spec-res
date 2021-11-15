@@ -105,7 +105,7 @@ func GenTomlAndGoSrc(specPath, outDir string) {
 		LIST      = "LIST: "
 		NUMERIC   = "NUMERIC: "
 		BOOLEAN   = "BOOLEAN: "
-		ATTRIBUTE = "COMPLEX ATTRIBUTE: "
+		ATTRIBUTE = "SIMPLE ATTRIBUTE: "
 	)
 
 	var (
