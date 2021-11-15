@@ -83,7 +83,7 @@ func MapOfGrp(objs []string, sep string, xxxPathGrp ...string) map[string][]stri
 // PrintGrp4Cfg :
 func PrintGrp4Cfg(m map[string][]string, attr string) (toml string) {
 	switch attr {
-	case "LIST", "NUMERIC", "BOOLEAN", "ATTRIBUTE", "OBJECT":
+	case "LIST", "NUMERIC", "BOOLEAN", "OBJECT": // "ATTRIBUTE"
 		for obj, grp := range m {
 			content := fSf("[%s]\n  %s = [", obj, attr)
 			for _, path := range grp {
@@ -99,22 +99,22 @@ func PrintGrp4Cfg(m map[string][]string, attr string) (toml string) {
 func GenTomlAndGoSrc(specPath, outDir string) {
 
 	const (
-		SEP       = "/"
-		VERSION   = "VERSION: "
-		OBJECT    = "OBJECT: "
-		LIST      = "LIST: "
-		NUMERIC   = "NUMERIC: "
-		BOOLEAN   = "BOOLEAN: "
-		ATTRIBUTE = "SIMPLE ATTRIBUTE: "
+		SEP     = "/"
+		VERSION = "VERSION: "
+		OBJECT  = "OBJECT: "
+		LIST    = "LIST: "
+		NUMERIC = "NUMERIC: "
+		BOOLEAN = "BOOLEAN: "
+		// ATTRIBUTE = "COMPLEX ATTRIBUTE: "
 	)
 
 	var (
+		SIFVer      string
 		objGrp      []string
 		listPathGrp []string
 		numPathGrp  []string
 		boolPathGrp []string
-		attrPathGrp []string
-		SIFVer      string
+		// attrPathGrp []string
 	)
 
 	bytes, err := ioutil.ReadFile(specPath)
@@ -133,8 +133,8 @@ func GenTomlAndGoSrc(specPath, outDir string) {
 			numPathGrp = append(numPathGrp, sTrim(line[len(NUMERIC):], " \t\r\n"))
 		case sHasPrefix(line, BOOLEAN):
 			boolPathGrp = append(boolPathGrp, sTrim(line[len(BOOLEAN):], " \t\r\n"))
-		case sHasPrefix(line, ATTRIBUTE):
-			attrPathGrp = append(attrPathGrp, sTrim(line[len(ATTRIBUTE):], " \t\r\n"))
+			// case sHasPrefix(line, ATTRIBUTE):
+			// 	attrPathGrp = append(attrPathGrp, sTrim(line[len(ATTRIBUTE):], " \t\r\n"))
 		}
 	}
 
@@ -148,20 +148,20 @@ func GenTomlAndGoSrc(specPath, outDir string) {
 	mNumAttr := MapOfGrp(ObjGrp(SEP, numPathGrp...), SEP, numPathGrp...)
 	mBoolAttr := MapOfGrp(ObjGrp(SEP, boolPathGrp...), SEP, boolPathGrp...)
 	mObjAttr := MapOfGrp(ObjGrp(SEP, objGrp...), SEP, objGrp...)
-	mAttr2 := MapOfGrp(ObjGrp(SEP, attrPathGrp...), SEP, attrPathGrp...)
+	// mAttr2 := MapOfGrp(ObjGrp(SEP, attrPathGrp...), SEP, attrPathGrp...)
 
 	verln := fSf("Version = \"%s\"\n\n", SIFVer)
 	toml4List := verln + PrintGrp4Cfg(mListAttr, "LIST")
 	toml4Num := verln + PrintGrp4Cfg(mNumAttr, "NUMERIC")
 	toml4Bool := verln + PrintGrp4Cfg(mBoolAttr, "BOOLEAN")
 	toml4Obj := verln + PrintGrp4Cfg(mObjAttr, "OBJECT")
-	toml4Attr := verln + PrintGrp4Cfg(mAttr2, "ATTRIBUTE")
+	// toml4Attr := verln + PrintGrp4Cfg(mAttr2, "ATTRIBUTE")
 
 	mustWriteFile(outDir+"toml/List2JSON.toml", []byte(toml4List))
 	mustWriteFile(outDir+"toml/Num2JSON.toml", []byte(toml4Num))
 	mustWriteFile(outDir+"toml/Bool2JSON.toml", []byte(toml4Bool))
 	mustWriteFile(outDir+"toml/Obj2JSON.toml", []byte(toml4Obj))
-	mustWriteFile(outDir+"toml/Attr2JSON.toml", []byte(toml4Attr))
+	// mustWriteFile(outDir+"toml/Attr2JSON.toml", []byte(toml4Attr))
 }
 
 func main() {
@@ -177,12 +177,12 @@ func main() {
 		tomlPath := outdir + "toml/"
 		v := sReplaceAll(ver, ".", "")
 
-		CfgL2J, CfgB2J, CfgN2J, CfgO2J, CfgA2J := "CfgL2J"+v, "CfgB2J"+v, "CfgN2J"+v, "CfgO2J"+v, "CfgA2J"+v
+		CfgL2J, CfgB2J, CfgN2J, CfgO2J := "CfgL2J"+v, "CfgB2J"+v, "CfgN2J"+v, "CfgO2J"+v // CfgA2J := "CfgA2J"+v
 		strugen.GenStruct(tomlPath+"List2JSON.toml", CfgL2J, pkgName, cfgSrc)
 		strugen.GenStruct(tomlPath+"Bool2JSON.toml", CfgB2J, pkgName, cfgSrc)
 		strugen.GenStruct(tomlPath+"Num2JSON.toml", CfgN2J, pkgName, cfgSrc)
 		strugen.GenStruct(tomlPath+"Obj2JSON.toml", CfgO2J, pkgName, cfgSrc)
-		strugen.GenStruct(tomlPath+"Attr2JSON.toml", CfgA2J, pkgName, cfgSrc)
+		// strugen.GenStruct(tomlPath+"Attr2JSON.toml", CfgA2J, pkgName, cfgSrc)
 	}
 
 	strugen.GenNewCfg(cfgSrc)
