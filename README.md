@@ -14,3 +14,4 @@ use 'build.sh' to generate resource folders
 * 3.4.6
 * 3.4.7
 * 3.4.8
+* 3.4.9
